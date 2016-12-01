@@ -1,5 +1,9 @@
 
 #AIML
+	Each of the team members should download this archive: https://code.google.com/archive/p/aiml-en-us-foundation-alice/downloads
+	(aiml-en-us-foundation-alice.v1-9.zip). Then, we will update the files if necessary.
+	
+#Categories
 
 	AI
 	Alice
