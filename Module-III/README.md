@@ -10,7 +10,7 @@ __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madali
 	4. Define a schema for users
 	
 
-#Aiml files
+#Aiml files (go to "aiml" directory)
 	
 #Collection user	
 
@@ -54,7 +54,7 @@ Example:
 		"predicates": {
 			"age": 18,
 			"school": "Computer science",
-			"disease": ["cancer", "diabetes"],
+			"diseases": ["cancer", "diabetes"],
 			"car": "BMW"
 		}
 	}
