@@ -1,22 +1,54 @@
 
 #AIML
 
-	##AI
-
-	##Alice
-
-	##Astrology
-
-	##Atomic
-
-	##Biography
-
-	##Bot
-
-	##Bot_profile
-
-	##Client
-
-	##Client_profile
-
-	##Computers
+	AI
+	Alice
+	Astrology
+	Atomic
+	Biography
+	Bot
+	Bot_profile
+	Client
+	Client_profile
+	Computers
+	Continuation
+	Date
+	Default
+	Drugs
+	Emotion
+	Food
+	Geography
+	Gossip
+	History
+	Humor
+	Imponderables
+	Inguiry
+	Interjection
+	IU
+	Knowledge
+	Literature
+	Loebner: No response, connect
+	Money
+	Movies
+	Mp0 - 6
+	Music
+	Numbers
+	Personality
+	Phone
+	Pickup
+	Politics
+	Primeminister
+	Primitive-math
+	Psychology
+	Reduction
+	Religion
+	Salutations
+	Science
+	Sex
+	Sports
+	Stack
+	Stories
+	That
+	Update
+	Wallace
+	Xfind	
