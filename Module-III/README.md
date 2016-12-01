@@ -39,7 +39,7 @@ __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madali
 					"diseases": {
 						"type": "array",
 						"description": "list of diseases",
-						"itmes": {
+						"items": {
 							"type": "string"
 						}
 					}
@@ -123,5 +123,42 @@ bad response
 			"errorMessage": "Internal server error"
 		}
 	}
+
+<b> PUT /api/user/:username </b>
+
+request body
+
+	{
+		"predicates": {
+			"age": 20,
+			"school": "Computer science",
+			"diseases": ["flu"]
+		}
+	}
+
+response 
+
+	{
+		"data": {
+			"username": "John",
+			"password": "John",
+			"predicates": {
+				"age": 20,
+				"school": "Computer science",
+				"diseases": ["cancer", "diabetes",  "flu"],
+				"car": "BMW"
+			}
+		}
+		"error": null
+	}
 	
+bad response
+
+	{
+		"data": null,
+		"error": {
+			"statusCode": 404,
+			"errorMessage": "User not found"
+		}
+	}
 	
