@@ -4,41 +4,44 @@
 
 __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madalina, Astefanesei Iulian
 
-	1. Define a schema (question and answer)
-	2. Define a schema for words
-	3. Define the endpoints for words
-	4. Define the endpoints for question and answer
-	5. Introduce more data to db
-	6. Use a module to determine if the word is valid in english and to get the word's synonyms
+	1. Define a schema (question and answer): use aiml resource files
+	2. Introduce data to medical.ailm
+	3. Update the other aiml files
+	4. Define a schme for users
 	
 
-#Collection Q&A
+#Aiml files
 	
+#Collection user	
+
 	{
-		"title": " Question and answer",
+		"title": " User information",
 		"type": "object",
 		"properties": {
-			"question": {
+			"username": {
 				"type": "string"
 			},
-			"answer": {
+			"password": {
 				"type": "string"
 			},
-			"keyWords": {
-				"description":"Keywords extracted from question",
-				"type": "array",
-				"items": {
-					"type": "string"
+			"predicates": {
+				"description":"List of learned tags fomr user",
+				"type": "object",
+				"properties": {
+					"age": {
+						"type": "string"
+					},
+					"school": {
+						"type": "string"
+					},
+					"disease": {
+						"type": "array",
+						"description": "list of disseases",
+						"itmes": {
+							"type": "string"
+						}
+					}
 				}
 			}
 		}
 	}
-
-Example: 
-
-	{
-		"question": "Who is Albert Einstein?",
-		"answer": "Albert Einstein was a German-born physicist who developed the general theory of relativity, among other feats. He is considered the most influential physicist of the 20th century.",
-		"keywords":["Albert", "Einstein"]
-	}
-
