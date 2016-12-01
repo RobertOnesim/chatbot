@@ -5,9 +5,9 @@
 __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madalina, Astefanesei Iulian
 
 	1. Define a schema (question and answer): use aiml resource files
-	2. Introduce data to medical.ailm
+	2. Introduce data to medical.aiml
 	3. Update the other aiml files
-	4. Define a schme for users
+	4. Define a schema for users
 	
 
 #Aiml files
@@ -25,7 +25,7 @@ __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madali
 				"type": "string"
 			},
 			"predicates": {
-				"description":"List of learned tags fomr user",
+				"description":"List of learned tags from user",
 				"type": "object",
 				"properties": {
 					"age": {
@@ -34,9 +34,9 @@ __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madali
 					"school": {
 						"type": "string"
 					},
-					"disease": {
+					"diseases": {
 						"type": "array",
-						"description": "list of disseases",
+						"description": "list of diseases",
 						"itmes": {
 							"type": "string"
 						}
@@ -45,3 +45,15 @@ __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madali
 			}
 		}
 	}
+
+Example:
+
+	{ "username": "John",
+	    "password": "John",
+	    "predicates": {
+	      "age": 18,
+	      "school": "Computer science",
+	      "disease": ["cancer", "diabetes"],
+	      "car": "BMW"
+	    }
+	  }
