@@ -48,12 +48,13 @@ __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madali
 
 Example:
 
-	{ "username": "John",
-	    "password": "John",
-	    "predicates": {
-	      "age": 18,
-	      "school": "Computer science",
-	      "disease": ["cancer", "diabetes"],
-	      "car": "BMW"
-	    }
-	  }
+	{
+		"username": "John",
+		"password": "John",
+		"predicates": {
+			"age": 18,
+			"school": "Computer science",
+			"disease": ["cancer", "diabetes"],
+			"car": "BMW"
+		}
+	}
