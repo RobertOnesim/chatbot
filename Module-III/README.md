@@ -10,7 +10,8 @@ __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madali
 	4. Define a schema for users
 	
 
-#Aiml files (go to "aiml" directory)
+#Aiml files 
+	Go to /aiml directory and find all the categories
 	
 #Collection user	
 
