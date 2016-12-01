@@ -8,6 +8,7 @@ __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madali
 	2. Introduce data to medical.aiml
 	3. Update the other aiml files
 	4. Define a schema for users
+	5. Define the endpoints for user
 	
 
 #Aiml files 
@@ -30,7 +31,7 @@ __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madali
 				"type": "object",
 				"properties": {
 					"age": {
-						"type": "string"
+						"type": "number"
 					},
 					"school": {
 						"type": "string"
@@ -59,3 +60,68 @@ Example:
 			"car": "BMW"
 		}
 	}
+
+
+<b> POST /api/user/login </b>
+
+request body
+
+	{
+		"username": "John",
+		"password": "John"
+	}
+	
+response 
+
+	{
+		"data": {
+			"username": "John",
+			"password": "John",
+			"predicates": {
+				"age": 18,
+				"school": "Computer science",
+				"diseases": ["cancer", "diabetes"],
+				"car": "BMW"
+			}
+		}
+		"error": null
+	}
+
+bad response
+
+	{
+		"data": null
+		"error": {
+			"statusCode": 404,
+			"errorMessage": "user not found in db"
+		}
+	}
+	
+
+<b> POST /api/user/ </b>
+
+request body
+
+	{
+		"username": "John",
+		"password": "John"
+	}
+
+response 
+
+	{
+		"data": "succes",
+		"error": null
+	}
+	
+bad response
+
+	{
+		"data": null,
+		"error": {
+			"statusCode": 500,
+			"errorMessage": "Internal server error"
+		}
+	}
+	
+	
