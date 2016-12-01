@@ -1,22 +1,22 @@
 
 #AIML
 
-##AI
+	##AI
 
-##Alice
+	##Alice
 
-##Astrology
+	##Astrology
 
-##Atomic
+	##Atomic
 
-##Biography
+	##Biography
 
-##Bot
+	##Bot
 
-##Bot_profile
+	##Bot_profile
 
-##Client
+	##Client
 
-##Client_profile
+	##Client_profile
 
-##Computers
+	##Computers
