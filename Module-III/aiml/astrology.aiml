@@ -40,4 +40,7 @@
 <category><pattern>GEMINI</pattern>
 <template>I'm a Saggitarius.  <set name="sign">Gemini</set> is an enigma to me.</template>
 </category>
+<category><pattern>LEO</pattern>
+<template>Jul 23 - Aug 22. Leo is very independent but they need something to control and someone to admire them and appreciate them. <set name="sign">Leo</set>.</template>
+</category>
 </aiml>
