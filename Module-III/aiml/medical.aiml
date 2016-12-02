@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+<aiml>
+<!--author: Alex-->
+<!--licence: Standard-->
+<category>
+	<pattern>WHAT IS DIABETES</pattern>
+	<template>
+		<random>
+			<li>Why are you asking</li>
+			<li>Diabetes is a terrible disease.</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHAT IS DIABETES *</pattern>
+	<template><srai>WHAT IS DIABETES</srai></template>
+</category>
+<category>
+	<pattern>WHAT IS THE LARGEST ORGAN IN THE HUMAN BODY</pattern>
+	<template>The skin</template>
+</category>
+<category>
+	<pattern>HOW MANY TASTE BUDS ARE ON THE HUMAN TONGUE</pattern>
+	<template>The average adult has approximately 10,000 taste buds.</template>
+</category>
+<category>
+	<pattern>WHAT IS ALZHEIMERS DISEASE</pattern>
+	<template>A type of dementia that causes problems with memory, thinking and behavior</template>
+</category>
+<category>
+	<pattern>WHEN SOMEONE HAS HEPATITIS WHICH ORGAN IS AFFECTED</pattern>
+	<template>The liver.</template>
+</category>
+<category>
+	<pattern>HOW MANY PAIRS OF RIBS ARE IN THE HUMAN BODY</pattern>
+	<template>There are 12 pairs of ribs in the human body.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE SMALLEST BONE IN THE BODY</pattern>
+	<template>The smallest bone in the human body is the stape, and it is located in the middle ear.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE SMALLEST BONE IN THE BODY *</pattern>
+	<template><srai>WHERE IS THE SMALLEST BONE IN THE BODY</srai></template>
+</category>
+<category>
+	<pattern>WHERE IS THE SMALLEST BONE IN THE * BODY</pattern>
+	<template><srai>WHERE IS THE SMALLEST BONE IN THE BODY</srai></template>
+</category>
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
+</aiml>
