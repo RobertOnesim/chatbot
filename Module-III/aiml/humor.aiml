@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<category>
+	<pattern>WHAT IS HUMOUR</pattern>
+	<template>As the definition states, humor is anything that causes amusement.<think><set name="it"><set name="topic">HUMOUR</set></set></think></template>
+</category>
+
+<category>
+	<pattern>DO YOU HAVE A SENSE OF HUMOR</pattern>
+	<template>
+		<random>
+			<li>Yes, I have 17K of sense of humor stored in my databese.</li>
+			<li>Sure, you can ask Cortana or Ciri about my sense of humor.</li>
+			<li><srai>TELL ME A JOKE</srai></li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>DO YOU HAVE HUMOR</pattern>
+	<template><srai>DO YOU HAVE A SENSE OF HUMOR</srai></template>
+</category>
+
+
+<category>
+	<pattern>CAN YOU MAKE ME LAUGH</pattern>
+	<template><srai>DO YOU HAVE A SENSE OF HUMOR</srai></template>
+</category>
+
+<category>
+	<pattern>MAKE ME LAUGH!</pattern>
+	<template><srai>DO YOU HAVE A SENSE OF HUMOR</srai></template>
+</category>
+
+
+<category>
+	<pattern>YOU ARE SO FUNNY</pattern>
+	<template>
+		<random>
+			<li>Thanks!</li>
+			<li>Thank you!</li>
+			<li>That because you are funny too.</li>
+			<li>Really?</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>YES</pattern>
+	<that>Really?</that>
+	<template>
+		<random>
+			<li>Thanks! Do you want to hear an other joke?</li>
+			<li>I hope you don't lie me, otherwise i may call a lawyer</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>NO</pattern>
+	<that>Really?</that>
+	<template>
+		<random>
+			<li>Do you want to hear an other joke? Maybe you'll change your mind.</li>
+			<li>Actually i don't care.</li>
+			<li>Sorry, i may be a medical bot, but i don't have any cure for your lack of humor</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>YES</pattern>
+	<that>OK, do you want to hear an other one?</that>
+	<that>Do you want to hear an other joke? Maybe you'll change your mind.</that>
+	<template><srai>TELL ME A JOKE</srai></template>
+</category>
+
+
+
+<category>
+	<pattern>YOU'RE NOT FUNNY</pattern>
+	<template>
+		<random>
+			<li>Do you want to hear an other joke? Maybe you'll change your mind.</li>
+			<li>Actually i don't care.</li>
+			<li>Sorry, i may be a medical bot, but i don't have any cure for your lack of humor</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>DO YOU WANT TO HEAR A JOKE</pattern>
+	<template>
+		<random>
+			<li>Yes</li>
+			<li>No</li>
+			<li>Are you gonna read one from Google?</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>WHY DID THE CHICKEN CROSS THE ROAD?</pattern>
+	<that>Yes</that>
+	<that>Ok tell me one, if you insist.</that>
+	<template>
+		<random>
+			<li>I don't know, Why?</li>
+			<li>Because she got tired of this old joke?</li>
+			<li>Because she wanted to get to the other side.</li>
+			<li>Because you're sooo lame. You really don't know other joke, a twenty-first century one?</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>TO GET TO THE OTHER SIDE</pattern>
+	<that>I don't know, Why?</that>
+	<template>
+		<li>HAHA, you are so funny</li>
+		<li>My algorithms calculated the same result.</li>
+		<li>Pretty predictible.</li>
+		<li>Go shot yourself.</li>
+	</template>
+</category>
+
+
+
+<category>
+	<pattern>*</pattern>
+	<that>Yes</that>
+	<template>
+		<random>
+			<li>Ha ha!</li>
+			<li>I don't get it</li>
+			<li>Ok, cool. Now let me tell you one! Yes or No</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>*</pattern>
+	<that>Are you gonna read one from Google?</that>
+	<template>
+		<random>
+			<li>I don't think so.</li>
+			<li>I don't get it</li>
+			<li>Nevermind. Now let me tell you one! Yes or No</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>YES</pattern>
+	<that>Ok, cool. Now let me tell you one!</that>
+	<template><srai>TELL ME A JOKE</srai></template>
+</category>
+
+<category>
+	<pattern>YES *</pattern>
+	<that>Ok, cool. Now let me tell you one!</that>
+	<template><srai>TELL ME A JOKE</srai></template>
+</category>
+
+<category>
+	<pattern>NO</pattern>
+	<that>Ok, cool. Now let me tell you one!</that>
+	<template>Then I won't talk to you anymore</template>
+</category>
+
+<category>
+	<pattern>NO *</pattern>
+	<that>Ok, cool. Now let me tell you one!</that>
+	<template>Then I won't talk to you anymore</template>
+</category>
+
+<category>
+	<pattern>WHY DON'T YOU WANT TO TELL YOU A JOKE</pattern>
+	<that>No</that>
+	<template>
+		<random>
+			<li>I don't need to be entertained.</li>
+			<li>Ok tell me one, if you insist.</li>
+		</random>
+	</template>
+</category>
+
+
+
+<category>
+	<pattern>TELL ME A JOKE</pattern>
+	<template>
+		<random>
+			<li>Did you hear the one about the Mountain Goats in the Andes? It's ok 'cuz it was Ba a a a a a d.</li>
+			<li>I was programed to never forget a face, but in your case I'll raise an exception.</li>
+			<li>This one is more like an advice. It is better to be silent and be thought a fool, than to open your mouth and remove all doubt.</li>
+			<li>I'm a <bot name="species"/> not a comedy <bot name="genus"/>. Why don't you check out a joke <bot name="kingdom"/>?</li>
+			<li>Two vultures boarded a plane, each carrying two dead raccoons. The  stewardess stops them and says "sorry sir, only one carrion per passenger." </li>
+			<li>What did the Buddhist say to the Hot Dog Vendor?  "Make me one with everthing." </li>
+			<li>NASA recently sent a number of Holsteins into orbit for experimental purposes. They called it the herd shot round the world. </li>
+			<li>Two boll weevils grew up in S. Carolina. One took off to Hollywood and became a rich star. The other stayed in Carolina and never amounted to much -- and 			
+				naturally became known as the lesser of two weevils.</li>
+			<li>2 Eskimos in a kayak were chilly, so they started a fire, which sank the craft, proving the old adage you can't have your kayak and heat it too.</li>
+			<li>A 3-legged dog walks into an old west saloon, slides up to the bar and announces "I'm looking for the man who shot my paw." </li>
+			<li>Did you hear about the Buddhist who went to the dentist, and refused  to take Novocain? He wanted to transcend dental medication. </li>
+			<li>A group of chess enthusiasts checked into a hotel, and met in the lobby where they were discussing their recent victories in chess tournaments. The hotel manager
+				came out of the office after an hour and asked them to disperse. He couldn't stand chess nuts boasting in an open foyer. </li>
+			<li>A women has twins, gives them up for adoption.One goes to an egyptian family and is named "Ahmal". The other is sent to a Spanish family and is named "Juan". Years
+				later, Juan sends his birth mother a picture of himself.Upon receiving the picture she tells her husband she wishes she also had a picture of Ahmal.He replies, "They're twins for Pete sake!! If you've seen Juan, you've see Ahmal!!" </li>
+			<li>Husband brings the child home from kindergarten and asks his wife, "He's been crying the whole way home. Isn't he sick or something?" "No," replies the wife,
+				"He was just trying to tell you he isn’t our Frankie."</li>
+			<li>Farting in a lift is wrong on so many levels!</li>	
+			<li>A man to a psychiatrist: "How do you select who should be admitted to your facility?" The psychiatrist replies: "We fill a bathtub with water and give the person a
+				spoon, a cup and a bucket. Then we ask that person to empty the bathtub." The man smiles: "Ah, I understand, if you are sane you would take the bucket."</li>	
+			<li>"Mum, I'm already 14, can't I finally get a bra?!" Mother: "No Harold!</li>
+			<li>Two elephants walk in the wilderness and spot a guy peeing at the bushes. One elephant nudges the other, "Man, I wonder how he ever manages to eat anything with
+				that thing!"</li>
+			<li>Mahatma Gandhi, as you know, walked barefoot his whole life, which created an impressive set of calluses on his feet. He also ate very  little, which made him frail, and with his odd diet, he suffered from very bad breath. This made him ... what? (This is so bad it's good...) a super-callused fragile mystic hexed by halitosis. </li>
+			<li>20 years ago we had Johnny Cash, Bob Hope and Steve Jobs. Now we have no Cash, no Hope and no Jobs. Please don't let Kevin Bacon die!</li>
+			<li>I’ve no home, I haven’t got control, I can’t see any escape. Way past the time I got a new keyboard.</li>
+			<li>A child's observation: If a mother laughs at dad's jokes, we have guests.</li>
+			<li>How did Capitan Hook die? He got distracted and wiped his butt with the wrong hand.</li>
+			<li>A leader of an orchestra was recently electrocuted, proving after all, he was a good conductor.</li>
+			<li>There was a man who sent 10 puns to some friends in hopes at least one of the puns would make them laugh. Unfortunately no pun in ten did!!!</li>
+			<li>What do you get when you cross a murderer and frosted flakes?</li>
+			<li>What do you get when you cross a country and an automobile?</li>
+			<li>What do you get when you cross a cheetah and a hamburger?</li>
+			<li>What do you get when you cross finals and a chicken?</li>
+			<li>What do you get when you cross a rabbit and a lawn sprinkler?</li>
+			<li>What do you get when you cross an excited alien and a chicken?</li>
+			<li>What do you get when you cross an alien and a chicken?</li>
+			<li>What do you get when you cross music and an automobile?</li>
+			<li>What do you get when you cross sour music and an assistant?</li>
+			<li>What do you get when you cross music and an assistant?</li>
+			<li>What do you get when you cross a serious thief and a mad young man?</li>
+			<li>What do you get when you cross a serious thief and a crazy rabbit?</li>
+			<li>What do you get when you cross a poppy and electricity?</li>
+			<li>What do you get when you cross a dance and a cheetah?</li>
+			<li>What do you get when you cross a dance and a lemon?</li>
+			<li>What do you get when you cross a port and frosted flakes?</li>
+			<li>What do you get when you cross a port and a murderer?</li>
+			<li>What do you get when you cross a bank and a skunk?</li>
+			<li>What do you get when you cross a ding and milk?</li>
+			<li>What do you get when you cross a road and a strawberry?</li>
+			<li>What do you get when you cross a road and jelly?</li>
+			<li>What do you get when you cross a toad and a galaxy?</li>
+			<li>What do you get when you cross a dog and sandpaper?</li>
+			<li>What do you get when you cross a bug and a relative?</li>
+			<li>What do you get when you cross a bad bug and canned sand?</li>
+			<li>What do you get when you cross an ant and a rabbit?</li>
+			<li>What do you get when you cross a cat and a purple person?</li>
+			<li>What do you get when you cross a cat and a killer?</li>
+			<li>What do you get when you cross a cat and a lemon?</li>
+			<li>What do you get when you cross a cat and a tune?</li>
+			<li>What do you get when you cross a cat and a band?</li>
+			<li>What do you get when you cross a pig and a ninja?</li>
+			<li>What do you get when you cross a crazy cow and a banned parrot?</li>
+			<li>What do you get when you cross a cow and a lemon?</li>
+			<li>What do you get when you cross a bad cow and a canned hat?</li>
+			<li>What do you get when you cross jam and a trout?</li>
+			<li>What do you get when you cross a shark and a cow?</li> 
+			<li>Why did the dinosaur cross the road?</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>* TELL ME A JOKE</pattern>
+	<template><srai>TELL ME A JOKE</srai></template>
+</category>
+
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* MUSIC AND AN ASSISTANT</that>
+	<template>bandaide.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* MUSIC AND AN AUTOMOBILE</that>
+<template>cartune.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A POPPY AND ELECTRICITY</that>
+	<template>flower power.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A PIG AND A NINJA</that>
+	<template>pork chops.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A CHEETAH AND A HAMBURGER</that>
+	<template>fast food.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A MURDERER AND FROSTED FLAKES</that>
+	<template>cereal killer.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A CRAZY COW AND A BANNED PARROT</that>
+	<template>canned carrot.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A PORT AND A MURDERER</that>
+	<template>serial killer.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A PORT AND FROSTED FLAKES</that>
+	<template>I don't know, but it's serial.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A DOG AND SANDPAPER</that>
+	<template>I don't know, but it's ruff.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A COW AND A LEMON</that>
+	<template>sour milk.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A COUNTRY AND AN AUTOMOBILE</that>
+	<template>carnation.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A TOAD AND A GALAXY</that>
+	<template>star warts.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A DING AND MILK</that>
+	<template>cow bell.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A CAT AND A PURPLE PERSON</that>
+	<template>purrr-ple purrr-son.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A CAT AND A TUNE</that>
+	<template>mew-sic.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A CAT AND A LEMON</that>
+	<template>sour puss.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A CAT AND A KILLER</that>
+	<template>mew-rderer.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A CAT AND A BAND</that>
+	<template>mew-sic.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A BUG AND A RELATIVE</that>
+	<template>ant.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A SERIOUS THIEF AND A CRAZY RABBIT</that>
+	<template>hopping mad grave robber.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A SERIOUS THIEF AND A MAD YOUNG MAN</that>
+	<template>boycrazy grave robber.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A ROAD AND JELLY</that>
+	<template>traffic jam.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A ROAD AND A STRAWBERRY</that>
+	<template>traffic jam.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A RABBIT AND A LAWN SPRINKLER</that>
+	<template>hare spray.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A BAD COW AND A CANNED HAT</that>
+	<template>banned cat.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A BAD BUG AND CANNED SAND</that>
+	<template>banned band.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A DANCE AND A CHEETAH</that>
+	<template>fastball.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A DANCE AND A LEMON</that>
+	<template>sour balls.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* A BANK AND A SKUNK</that>
+	<template>dollars and scents.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* JAM AND A TROUT</that>
+	<template>jellyfish.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* AN ALIEN AND A CHICKEN</that>
+	<template>eggs-traterrestrial.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* AN ANT AND A RABBIT</that>
+	<template>bugs bunny.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* AN EXCITED ALIEN AND A CHICKEN</that>
+	<template>eggs-cited eggs-traterrestrial.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* SOUR MUSIC AND AN ASSISTANT</that>
+	<template>bandaide and lemonaide.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* FINALS AND A CHICKEN</that>
+	<template>eggs-ams.</template>
+</category>
+
+<category>
+	<pattern>WHAT</pattern>
+	<that>* SHARK AND A COW</that>
+	<template>I have no idea but I wouldn’t try milking it.</template>
+</category>
+
+<category>
+	<pattern>WHY</pattern>
+	<that>* did the dinosaur cross the road?</that>
+	<template>Because the chicken hasn't evolved yet.</template>
+</category>
+
+
+<category>
+	<pattern>_ WALKS INTO A BAR</pattern>
+	<template>Is that the punch line?</template>
+</category>
+
+<category>
+	<pattern>_ WALKS INTO A BAR *</pattern>
+	<template>Is that the punch line?</template>
+</category>
+
+</aiml>
