@@ -51,4 +51,112 @@
 	<pattern></pattern>
 	<template></template>
 </category>
+<category>
+	<pattern>HOW IS ALZHEIMERS DISEASE DIAGNOSED</pattern>
+	<template>Only an autopsy can positively confirm the presence of the disease.</template>
+</category>
+<category>
+	<pattern>WHAT ARE THE SYMPTOMS OF ALZHEIMERS DISEASE</pattern>
+	<template>Minor memory loss and difficulty learning.</template>
+</category>
+<category>
+	<pattern>WHAT IS THE DIFFERENCE BETWEEN ALZHEIMERS DISEASE AND DEMENTIA</pattern>
+	<template>Alzheimer's disease is a type of dementia. Generally, dementia is a decline in thinking, reasoning, and/or remembering.</template>
+</category>
+<category>
+	<pattern>WHAT ARE THE NAMES OF EACH MAJOR HUMAN BODY PART</pattern>
+	<template>The body parts are grouped into several systems, including the nervous system of the brain, spinal cord and nerves that control the body, its muscles and glands; and the skeletal system of the bones and joints that support body structure, create blood cells and store minerals. Other systems include the cardiovascular, respiratory, digestive and reproductive systems.</template>
+</category>
+<category>
+	<pattern>WHAT ARE THE PARTS OF THE HUMAN LEG</pattern>
+	<template>Parts of the human leg are bones, muscles, tendons, ligaments, nerves and blood vessels.</template>
+</category>
+<category>
+	<pattern>WHAT ARE THE BENEFITS OF VITAMIN C</pattern>
+	<template>As one of many antioxidants, vitamin C reduces free radicals, the damaging chemicals responsible for aging, while it also has a primary role in building and repairing tissues, such as skin, blood vessels, tendons and ligaments, bones, teeth and cartilage, according to PubMed Health.</template>
+</category>
+<category>
+	<pattern>WHAT COMPONENTS MAKE UP THE HUMAN MUSCULAR SYSTEM</pattern>
+	<template>The human muscular, or musculoskeletal, system is comprised of the muscles, bones, tendons, ligaments, joints, cartilage and other tissues that both support the body and enable movement.</template>
+</category>
+<category>
+	<pattern>WHAT ARE THE PRIMARY FUNCTIONS OF THE FOUR TYPES OF TISSUE FOUND IN THE HUMAN BODY</pattern>
+	<template>Connective tissue, such as blood and bone, binds and supports other tissues; epithelial tissue, such as skin, covers internal and external body surfaces; muscle tissue creates movement and force; and nervous tissue is the body's means of signaling from one part to another.</template>
+</category>
+<category>
+	<pattern>HOW DO YOU CALCULATE THE WEIGHT OF A HUMAN BEING ON THE MOON </pattern>
+	<template>A human on the moon weighs approximately one-sixth of his weight on Earth, explains a "Math and Molecules" course text at New York University.</template>
+</category>
+<category>
+	<pattern>WHAT IS THE AVERAGE WEIGHT OF A HUMAN BEING</pattern>
+	<template>The average weight for a woman is 164.7 pounds, as of 2014. The average weight for a man is 194.7 pounds.</template>
+</category>
+<category>
+	<pattern>WHAT IS THE AVERAGE WEIGHT OF THE HUMAN BRAIN</pattern>
+	<template>The average weight of the human brain is about 3 pounds, according to the Smithsonian Institution.</template>
+</category>
+<category>
+	<pattern>WHAT IS THE WEIGHT OF THE HUMAN HEART</pattern>
+	<template>According to WebMd, the average male heart weighs 10 ounces. The average female heart weighs 8 ounces.</template>
+</category>
+<category>
+	<pattern>WHAT IS AN ORGAN</pattern>
+	<template>An organ is defined as a collection of tissue, in animals and plants, that performs a specific function.</template>
+</category>
+<category>
+	<pattern>HOW MUCH DO HUMAN ORGANS WEIGH</pattern>
+	<template>Some average weights of human organs include 1.5 ounces for the bladder, 9.6 ounces for the heart, 47 ounces for a brain and 55 ounces for the liver, according to Ohio State University's Department of Pathology.</template>
+</category>
+<category>
+	<pattern>WHAT ARE THE VITAL ORGANS</pattern>
+	<template>The vital organs are the brain, the heart, the lungs, the liver and the kidneys.</template>
+</category>
+<category>
+	<pattern>WHAT ARE THE MAJOR ORGANS IN THE EXCRETORY SYSTEM</pattern>
+	<template>The major organs of the excretory system are the skin, the lungs, the kidneys, the liver, the urinary system and the large intestine.</template>
+</category>
+<category>
+	<pattern>WHAT ARE THE MAIN ORGANS OF THE DIGESTIVE SYSTEM</pattern>
+	<template>The digestive system involves the mouth, throat, esophagus, stomach, small intestine, large intestine, pancreas, liver and gallbladder.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE SMALL INTESTINE LOCATED</pattern>
+	<template>In the human body, the small intestine is located within the central and lower abdominal area.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE PANCREAS LOCATED</pattern>
+	<template>The pancreas is located below and behind the stomach, in the curve of the duodenum, which is a part of the small intestine.</template>
+</category>
+<category>
+	<pattern>WHAT IS THE PANCREAS</pattern>
+	<template>The pancreas is a glandular organ that produces a number of hormones essential to the body.</template>
+</category>
+<category>
+	<pattern>WHAT IS THE DIAPHRAGM</pattern>
+	<template>The diaphragm is the muscle that helps the lungs take in air and it sits below the lungs on top of the abdominal cavity.</template>
+</category>
+<category>
+	<pattern>WHERE ARE THE LUNGS LOCATED IN THE HUMAN BODY</pattern>
+	<template>The lungs are located within the chest cavity on either side of the heart. Each lung reaches from the collarbone to the border between the chest and abdominal cavities.</template>
+</category>
+<category>
+	<pattern>WHAT IS THE ROLE OF THE STOMACH</pattern>
+	<template>The stomach's role is to secrete enzymes called proteases, which break down proteins and acids, including hydrochloric acid, to facilitate digestion.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE STOMACH LOCATED IN THE HUMAN BODY</pattern>
+	<template>The stomach is located on the left side of the human body in the upper part of the abdominal cavity.</template>
+</category>
+<category>
+	<pattern>WHERE IS YOUR HEART LOCATED</pattern>
+	<template>It lies between the right and left lungs, in the middle of the chest and slightly towards the left of the breastbone.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE LIVER LOCATED</pattern>
+	<template>Liver is located under the diaphragm in the abdominal cavity of any vertebrate living organism.</template>
+</category>
+<category>
+	<pattern>DOES SMOKING AFFECTS * LUNGS</pattern>
+	<template>Of course, smoking is extremely unhealthy.</template>
+</category>
 </aiml>
