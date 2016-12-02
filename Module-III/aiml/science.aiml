@@ -78,6 +78,7 @@ Third law of thermodynamics: The entropy of a system approaches a constant value
 <category><pattern>WHERE IS VENUS</pattern>
 <template><set name="it"> 				<set name="topic"> VENUS </set> 			</set> is the second planet from the Sun.</template>
 </category>
+<category><pattern>SOLAR SYSTEM</pattern>
 <template>The Solar System is the gravitationally bound system comprising the Sun and the objects that orbit it, either directly or indirectly.</template>
 </category>
 <category><pattern>NUMBER OF PLANETS</pattern>
