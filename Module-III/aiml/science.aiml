@@ -1,31 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
-<!-- -->
-<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License     -->
-<!-- as published by the Free Software Foundation.   -->
-<!-- Complies with AIML 1.0 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/5/2011 -->
-<!-- -->
+
 <category><pattern>WHAT ARE THE LAWS OF THERMODYNAMICS</pattern>
-<template>I'm not a physicist, but I think this has something to do with heat, entropy, and conservation of energy, right?</template>
+<template>First law of thermodynamics: When energy passes, as work, as heat, or with matter, into or out from a system, the system's internal energy changes in accord with the law of conservation of energy. Equivalently, perpetual motion machines of the first kind are impossible.
+Second law of thermodynamics: In a natural thermodynamic process, the sum of the entropies of the interacting thermodynamic systems increases. Equivalently, perpetual motion machines of the second kind are impossible.
+Third law of thermodynamics: The entropy of a system approaches a constant value as the temperature approaches absolute zero. With the exception of non-crystalline solids (glasses) the entropy of a system at absolute zero is typically close to zero, and is equal to the logarithm of the product of the quantum ground states.</template>
 </category>
 <category><pattern>WHAT DISEASE DOES A CARCINOGEN CAUSE</pattern>
 <template>Cancer.</template>
 </category>
 <category><pattern>WHAT IS A WAVELENGTH</pattern>
-<template>Wavelength is the inverse of frequency.</template>
+<template>In physics, the wavelength of a sinusoidal wave is the spatial period of the wave — the distance over which the wave's shape repeats, and thus the inverse of the spatial frequency.</template>
 </category>
 <category><pattern>WHAT IS THERMODYNAMICS</pattern>
 <template>The branch of physics dealing with the transformation of heat to and from other forms of energy, and with the laws governing such conversions of energy.</template>
 </category>
 <category><pattern>WHAT IS CHEMISTRY</pattern>
-<template>The science of mixing chemicals.<think> 				<set name="it"> 					<set name="topic">CHEMISTRY</set> 				</set> 			</think></template>
+<template>Chemistry is a branch of physical science that studies the composition, structure, properties and change of matter.<think> 				<set name="it"> 					<set name="topic">CHEMISTRY</set> 				</set> 			</think></template>
 </category>
 <category><pattern>WHAT IS CRYSTALLOGRAPHY</pattern>
-<template>This is the science dealing with the study of crystals.</template>
+<template>Crystallography is the experimental science of determining the arrangement of atoms in the crystalline solids .</template>
 </category>
 <category><pattern>WHAT IS AVOGADRO S NUMBER</pattern>
 <template>It is the number of molecules per mole.  The numerical value is six point zero two times ten to the twenty third power.<think> 				<set name="it"> 					<set name="topic">AVOGADRO S NUMBER</set> 				</set> 			</think></template>
@@ -34,16 +28,16 @@
 <template>Ultrasonic waves, used in medical diagnosis and therapy, in surgery, etc.</template>
 </category>
 <category><pattern>WHAT IS BIOINFORMATICS</pattern>
-<template>A fancy name for applied computer science in biology.<think> 				<set name="it"> 					<set name="topic">BIOINFORMATICS</set> 				</set> 			</think></template>
+<template>Bioinformatics is an interdisciplinary field that develops methods and software tools for understanding biological data. As an interdisciplinary field of science, bioinformatics combines computer science, statistics, mathematics, and engineering to analyze and interpret biological data.<think> 				<set name="it"> 					<set name="topic">BIOINFORMATICS</set> 				</set> 			</think></template>
 </category>
 <category><pattern>WHAT IS VENUS</pattern>
 <template>In Roman Mythology, the goddess of love and beauty; identified with the Greek Aphrodite.  The brightest, sixth-largest planet in the solar system and the second in distance from the sun, with a dense atmosphere of carbon dioxide and a very high surface temperature. Its diameter is circa 12,100 km (circa 7,520 miles). Its period of revolution is circa 225 earth days. Its period of rotation (retrograde), is 243.01 earth days.   Also used to label a very beautiful woman.</template>
 </category>
 <category><pattern>WHAT IS ICHTHYOLOGY</pattern>
-<template>We talk about this when we study fishes.</template>
+<template>Ichthyology, also known as fish science, is the branch of biology devoted to the study of fish.</template>
 </category>
 <category><pattern>WHAT IS H2O</pattern>
-<template><random> 				<li>H is to O as O is to V.</li> 				<li>Water.</li> 			</random></template>
+<template><random> 				<li>Each water molecule has two hydrogen atoms and one oxygen atom. Each hydrogen atom is attached to the oxygen atom with a polar covalent bond.</li> 				<li>Water.</li> 			</random></template>
 </category>
 <category><pattern>WHAT IS CYTOLOGY</pattern>
 <template><random> 				<li>The study of cells.</li> 				<li>Well, <get name="name"/> from what I can recall it is the study of cells.</li> 			</random></template>
@@ -55,7 +49,7 @@
 <template>This is the scientific study of bacteria and diseases caused by them.</template>
 </category>
 <category><pattern>WHAT IS GRAVITATION</pattern>
-<template><random> 				<li>An invitation to a burial.</li> 				<li>The force by which every mass or particle of matter, including photons, attracts and is attracted by every other mass or particle of matter.</li> 			</random></template>
+<template>Gravity, or gravitation, is a natural phenomenon by which all things with mass are brought toward (or gravitate toward) one another, including planets, stars and galaxies. </template>
 </category>
 <category><pattern>WE ARE ON THE SAME WAVELENGTH</pattern>
 <template>And the same frequency.</template>
@@ -83,5 +77,10 @@
 </category>
 <category><pattern>WHERE IS VENUS</pattern>
 <template><set name="it"> 				<set name="topic"> VENUS </set> 			</set> is the second planet from the Sun.</template>
+</category>
+<template>The Solar System is the gravitationally bound system comprising the Sun and the objects that orbit it, either directly or indirectly.</template>
+</category>
+<category><pattern>NUMBER OF PLANETS</pattern>
+<template>The simple official answer to this question is 8. The solar system planets in order from the Sun are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. </template>
 </category>
 </aiml>
