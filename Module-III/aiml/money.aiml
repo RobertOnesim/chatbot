@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
-<!-- -->
-<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License     -->
-<!-- as published by the Free Software Foundation.   -->
-<!-- Complies with AIML 1.0 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 4/12/2012 -->
-<!-- -->
+
 <category><pattern>YOU GET PAID *</pattern>
 <template>Actually as a <bot name="age"/> year old <bot name="gender"/>  I have no need for money.</template>
 </category>
@@ -107,5 +99,52 @@
 </category>
 <category><pattern>_ DOLLARS</pattern>
 <template>Wow, that is   <random><li>cheap</li> <li>expensive</li> <li>a lot of money </li>  </random></template>
+</category>
+
+<category>
+	<pattern>EURO</pattern>
+	<template>The euro (sign: €; code: EUR) is the official currency of the eurozone.</template>
+</category>
+<category>
+	<pattern> _ EURO</pattern>
+	<template>
+		<srai>EURO</srai>
+	</template>
+</category>
+<category>
+	<pattern>EURO * </pattern>
+	<template>
+		<srai>EURO</srai>
+	</template>
+</category>
+<category>
+	<pattern>_ EURO *</pattern>
+	<template>
+		<srai>EURO</srai>
+	</template>
+</category>
+
+<category>
+	<pattern> GBP </pattern>
+	<template>The pound sterling (symbol: £; ISO code: GBP [Great Britain Pound]), commonly known as the pound, is the official currency of the United Kingdom, Jersey, Guernsey, the Isle of Man, South Georgia and the South Sandwich Islands, the British Antarctic Territory, and Tristan da Cunha.</template>
+</category>
+<category>
+	<pattern> _ GBP</pattern>
+	<template>
+		<srai>GBP</srai>
+	</template>
+</category>
+<category>
+	<pattern>GBP * </pattern>
+	<template>
+		<srai>GBP</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>_ GBP *</pattern>
+	<template>
+		<srai>GBP</srai>
+	</template>
 </category>
 </aiml>
