@@ -11,17 +11,17 @@ var userController = function (urlDB) {
                     .toArray()
                     .then(function (results) {
                         res.status(200);
-                        res.send(results);
+                        res.send({data: results, error: null});
                         db.close();
                     })
                     .catch(function (err) {
                         res.status(400);
-                        res.send({msg: err})
+                        res.send({data: null, error: {statusCode: 400, errorMessage: err}});
                     });
             })
             .catch(function (err) {
                 res.status(500);
-                res.send({msg: err})
+                res.send({data: null, error: {statusCode: 400, errorMessage: err}});
             });
     };
 
@@ -32,7 +32,7 @@ var userController = function (urlDB) {
         var errors = req.validationErrors();
         if (errors) {
             res.status(400);
-            res.send(errors);
+            res.send({data: null, error: { statusCode:400, errorMessage: errors}});
             return;
         }
 
@@ -44,28 +44,28 @@ var userController = function (urlDB) {
                     .then(function (result) {
                         if (result) {
                             res.status(400);
-                            res.send({param: "username", msg: "This username already exists"});
+                            res.send({data: null, error: { statusCode:400, errorMessage: {param: "username", msg: "This username already exists"}}});
                         } else {
                             collection.insertOne(newUser)
                                 .then(function (results) {
                                     res.status(201);
-                                    res.send(results.ops[0]);
+                                    res.send({data: results.ops[0], error: null});
                                     db.close();
                                 })
                                 .catch(function (err) {
                                     res.status(400);
-                                    res.send({msg: err})
+                                    res.send({data: null, error: { statusCode:400, errorMessage: err}});
                                 });
                         }
                     })
                     .catch(function (err) {
                         res.status(400);
-                        res.send({msg: err})
+                        res.send({data: null, error: { statusCode:400, errorMessage: err}});
                     });
             })
             .catch(function (err) {
                 res.status(500);
-                res.send({msg: err})
+                res.send({data: null, error: { statusCode:500, errorMessage: err}});
             });
     };
 
@@ -76,7 +76,7 @@ var userController = function (urlDB) {
         var errors = req.validationErrors();
         if (errors) {
             res.status(400);
-            res.send(errors);
+            res.send({data: null, error: { statusCode:400, errorMessage: errors}});
             return;
         }
         mongodb.connect(urlDB)
@@ -86,25 +86,25 @@ var userController = function (urlDB) {
                     .then(function (result) {
                         if (result) {
                             res.status(200);
-                            res.send({msg: "Success", user: result});
+                            res.send({data: result, error: null});
                         } else {
                             res.status(404);
-                            res.send({msg: 'Not found'});
+                            res.send({data: null, error: { statusCode:404, errorMessage: 'User not found'}});
                         }
                         db.close();
                     })
                     .catch(function (err) {
                         res.status(400);
-                        res.send({msg: err})
+                        res.send({data: null, error: { statusCode:400, errorMessage: err}});
                     });
             })
             .catch(function (err) {
                 res.status(400);
-                res.send({msg: err})
+                res.send({data: null, error: { statusCode:400, errorMessage: err}});
             });
     };
 
-    var updateUser = function (req, res){
+    var updateUser = function (req, res) {
 
     };
 
