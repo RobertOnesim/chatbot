@@ -62,7 +62,7 @@ Example:
 	}
 
 
-<b> POST /api/user/login </b>
+<b> POST /api/charbot/user/login </b>
 
 request body
 
@@ -98,7 +98,7 @@ bad response
 	}
 	
 
-<b> POST /api/user/ </b>
+<b> POST /api/charbot/user/ </b>
 
 request body
 
@@ -124,7 +124,7 @@ bad response
 		}
 	}
 
-<b> PUT /api/user/:username </b>
+<b> PUT /api/charbot/user/:username </b>
 
 request body
 
