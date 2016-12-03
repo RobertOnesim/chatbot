@@ -8,8 +8,13 @@
 # Start the project
 		
 	$ npm install gulp -g
-	$ npm install
-	$ gulp
+	$ npm install mongodb -g
+	
+	Open another console: Program Files/MongoDB/Server/3.2/bin 
+	Program Files/MongoDB/Server/3.2/bin $ mongod
+	
+	projectUser $ npm install   #install all the dependencies
+	projectUser $ gulp          #start the server
 	
 # Postman
 	
