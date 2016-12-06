@@ -57,11 +57,11 @@ Example:
 
 ##Week 1
 
-	1. Define a schema (question and answer): use aiml resource files
-	2. Introduce data to medical.aiml
-	3. Update the other aiml files
-	4. Define a schema and endpoints for users
-	5. Project user, routes: getAllUsers, postUser, updateUser, loginUser
+	1. Define a schema (question and answer): use aiml resource files         Catalina, Alexandra, Madalina, Diana, Iulian
+	2. Introduce data to medical.aiml     					  Alexandra
+	3. Update the other aiml files        					  Alexandra, Madalina, Diana, Iulian
+	4. Define a schema and endpoints for users				  Catalina
+	5. Project user, routes: getAllUsers, postUser, updateUser, loginUser     Catalina
 	
 ##Week 2
 
