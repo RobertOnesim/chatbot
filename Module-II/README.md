@@ -4,13 +4,6 @@
 
 __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madalina, Astefanesei Iulian
 
-	1. Define a schema (question and answer): use aiml resource files
-	2. Introduce data to medical.aiml
-	3. Update the other aiml files
-	4. Define a schema for users
-	5. Define the endpoints for user
-	
-
 #Aiml files 
 	Go to /aiml directory and find all the categories
 	
@@ -62,7 +55,7 @@ Example:
 	}
 
 
-#Week 1
+##Week 1
 
 	1. Define a schema (question and answer): use aiml resource files
 	2. Introduce data to medical.aiml
@@ -70,7 +63,7 @@ Example:
 	4. Define a schema and endpoints for users
 	5. Project user, routes: getAllUsers, postUser, updateUser, loginUser
 	
-#Week 2
+##Week 2
 
 	1. Search about: ontology, YAGO, SUMO
 	2. API: Wolfram, Imdb, Music
