@@ -62,103 +62,19 @@ Example:
 	}
 
 
-<b> POST /api/charbot/user/login </b>
+#Week 1
 
-request body
-
-	{
-		"username": "John",
-		"password": "John"
-	}
+	1. Define a schema (question and answer): use aiml resource files
+	2. Introduce data to medical.aiml
+	3. Update the other aiml files
+	4. Define a schema and endpoints for users
+	5. Project user, routes: getAllUsers, postUser, updateUser, loginUser
 	
-response 
+#Week 2
 
-	{
-		"data": {
-			"username": "John",
-			"password": "John",
-			"predicates": {
-				"age": 18,
-				"school": "Computer science",
-				"diseases": ["cancer", "diabetes"],
-				"car": "BMW"
-			}
-		}
-		"error": null
-	}
-
-bad response
-
-	{
-		"data": null
-		"error": {
-			"statusCode": 404,
-			"errorMessage": "user not found in db"
-		}
-	}
-	
-
-<b> POST /api/charbot/user/ </b>
-
-request body
-
-	{
-		"username": "John",
-		"password": "John"
-	}
-
-response 
-
-	{
-		"data": "succes",
-		"error": null
-	}
-	
-bad response
-
-	{
-		"data": null,
-		"error": {
-			"statusCode": 500,
-			"errorMessage": "Internal server error"
-		}
-	}
-
-<b> PUT /api/charbot/user/:username </b>
-
-request body
-
-	{
-		"predicates": {
-			"age": 20,
-			"school": "Computer science",
-			"diseases": ["flu"]
-		}
-	}
-
-response 
-
-	{
-		"data": {
-			"username": "John",
-			"password": "John",
-			"predicates": {
-				"age": 20,
-				"school": "Computer science",
-				"diseases": ["cancer", "diabetes",  "flu"],
-				"car": "BMW"
-			}
-		}
-		"error": null
-	}
-	
-bad response
-
-	{
-		"data": null,
-		"error": {
-			"statusCode": 404,
-			"errorMessage": "User not found"
-		}
-	}
-	
+	1. Search about: ontology, YAGO, SUMO
+	2. API: Wolfram, Imdb, Music
+	3. Integrate the question and answers from Corpus_IA.docx
+	4. New route: addQuestionAnswer in a file.aiml
+	5. Update files .aiml
+	6. Define the topic for chatBot
