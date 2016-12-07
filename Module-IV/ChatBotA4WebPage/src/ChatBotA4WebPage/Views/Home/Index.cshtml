@@ -3,20 +3,19 @@
 }
 
 <div class="jumbotron">
-    <h1>Hi there, and welcome to our Site!</h1>
-    <h2>First of all, let's see what's this all about.</h2>
+    <h1>Dialog</h1>
     <hr />
-    <h3><b>Allow us to introduce ourselves</b></h3>
-    <p>
-        We are a group of senior students from the Faculty of Computer Science (Iași, Romania)
-        who are currently working at an Artificial Intelligence project, ChatBot.
-    </p>
-    <h3><b>What is our objective?</b></h3>
-    <p>
-        The project aims to realize an intelligent agent capable to engage meaningful conversations with a
-        human user, actively listening and understanding the user, answering questions, discovering the user’s
-        personality and suggesting appealing conversation topics. It will emulate a genuine well informed and
-        intelligent partner, featuring surprisingly informed answers or bright and funny changes of
-        conversation, as well as candid recognition of lack of knowledge.
-    </p>
+        <label class="control-label" for="form-group-input">Enter your question here.</label>
+        <input type="text" class="form-control" id="question" placeholder="Question">
+        <input type="submit" class="form-control" id="submit" value="Ask" onclick="append()"/>
+        <hr />
+        <textarea class="form-control" rows="10" id="dialog"></textarea>
 </div>
+
+<script language="javascript">
+    function append() {
+        var s = $('#question').val() + '\n' + "answer\n";
+        responsiveVoice.speak("answer");
+        $('#dialog').append(s);
+}
+</script>
