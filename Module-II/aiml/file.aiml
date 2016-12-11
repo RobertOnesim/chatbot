@@ -90,5 +90,46 @@
 <category> <pattern> And something else about java?</pattern> <template> It does not have explicit pointers.</template> </category>
 <category> <pattern> How far away is the moon?</pattern> <template> The moon is 384400 km away..</template> </category>
 <category> <pattern> The dark side of the moon: What is it?</pattern> <template> Some say that NASA is covering up the real reason we never returned to the moon and what is it on It's dark side, some say It's an alien base on the dark side of the moon and some say that the moon itself is an alien spaceship.</template> </category>
+<category> <pattern> What do you do for living?</pattern> <template> I am a student.I am in third year at Computer Science in Iasi.</template> </category>
+<category> <pattern> What are the oop principles?</pattern> <template> The main principles of oop are inheritance, overwriting, overloading, abstraction.</template> </category>
+<category> <pattern> In what year the World War II ended?</pattern> <template> World War II has ended in 1945.</template> </category>
+<category> <pattern> Between what years the Cold War it was taken?</pattern> <template> Cold War has been taken between 1947 and 1991.</template> </category>
+<category> <pattern> Do you like pets?</pattern> <template> Yes, I have a dog at home. It's a labrador.</template> </category>
+<category> <pattern> How are you feeling?</pattern> <template> Well, I'm a little bit sleep. I think I'm going to get a coffee too.</template> </category>
+<category> <pattern> What kind of book do you like to read?</pattern> <template>  I usually prefer reading stories like : Alexandru Lapusneanu, Hagi Tudose, La Tiganci and novels: Morometii, Fratii Jderi.</template> </category>
+<category> <pattern> Can you resume it in a few words Morometii novel?</pattern> <template>  Sure. In about a thousand pages, grouped in two parts, redrawing, over about twenty years, the slow and deep dissolution of an ordinary peasant family living in the village of Siliştea-Gumeşti (Teleorman)</template> </category>
+<category> <pattern> Did you read any other books written by Marin Preda?</pattern> <template> Yes. I read The Most Beloved of Earthlings when I was in highschool. It was amazing.</template> </category>
+<category> <pattern> Is Marin Preda a contemporary writer?</pattern> <template> Marin Preda (5 August 1922 – 16 May 1980) was a Romanian novelist, one of the best-known post-WWII Romanian writers. He belongs to both contemporary and interbelic period.</template> </category>
+<category> <pattern> I don't like cooking , can you suggest me a good restaurant?</pattern> <template> You should try an italian restaurant, they have the best pizza in town.</template> </category>
+<category> <pattern> What's your favorite type of music?</pattern> <template> I like classic rock.</template> </category>
+<category> <pattern> Do you know who invented rock music?</pattern> <template> Yes, Chuck Berry.</template> </category>
+<category> <pattern> Do you know which are the most popular rock bands of all times?</pattern> <template> It doesn't exists the most popular one, but there is a top 3 of that I am sure about: Led Zeppelin, The Beatles and Pink Floyd.</template> </category>
+<category> <pattern> When In flames created the first album and what is it's name?</pattern> <template> It's called Lunar Strain and was released on 1 April 1994.</template> </category>
+<category> <pattern> What is the name of the vocalist of Sabaton band?</pattern> <template> His name is Joakim Broden.</template> </category>
+<category> <pattern> Can you tell me what is greatest fear of the main character of Hannibal series?</pattern> <template> Hugh Dancy greatest fear is of snakes or destitution.</template> </category>
+<category> <pattern> What do you know about Winston Churchill?</pattern> <template> I know just a few things about him. He was the Prime Minister of the United Kingdom from 1940 to 1945 and from 1951 to 1955.</template> </category>
+<category> <pattern> What do you know about Tristan and Isolde?</pattern> <template> It is an opera, or music drama, in three acts by Richard Wagner to a German libretto by the composer, based largely on the romance by Gottfried von Strassburg.</template> </category>
+<category> <pattern> Could you tell me the stars that interpreted the main characters in the movie called “If Only”?</pattern> <template> Jennifer Love Hewitt and Paul Nicholls are the main characters.</template> </category>
+<category> <pattern> About volleyball, do you heard about Yekaterina Gamova?</pattern> <template> A few times: she's a retired Russian volleyball player.</template> </category>
+<category> <pattern> Can you tell me who was Beethoven?</pattern> <template> Beethoven was a German composer and pianist.</template> </category>
+<category> <pattern> Do you know what is a symphony ? What musician wrote symphonies?</pattern> <template> A symphony is an extended musical composition in Western classical music, most often written by composers for orchestra. Beethoven wrote 9 symphonyes.</template> </category>
+<category> <pattern> What do you know about World War 2 ?</pattern> <template> World War 2 was a global war that lasted from 1939 to 1945, although related conflicts began earlier. It involve more than 100 million people.</template> </category>
+<category> <pattern> Who was Hitler?</pattern> <template> Adolf Hitler was a German politician who was the leader of the Nazy Party and Führer (leader) of Nazi Germany</template> </category>
+<category> <pattern> What do you know about the Nazy Party in WW2 ?</pattern> <template> The leader of Nazy Party was a German politician named Adolf Hitler, who was the Chancellor of Germany from 1933 to 1945, and Führer of Nazi Germany from 1934 to 1945.</template> </category>
+<category> <pattern> What do you know about Holocaust ?</pattern> <template> The Holocaust appeared in WW2 in which approximately 11 million people were killed.</template> </category>
+<category> <pattern> Do you know what Romanticism was?</pattern> <template> Romanticism was an artistic, literary, musical and intellectual movement that originated in Europe toward the end of the 18th century and in most areas was at its peak in the approximate period from 1800 to 1850.</template> </category>
+<category> <pattern> Can you provide me an example of some Romanticism book ?</pattern> <template> An example of a Romanticism book is Madame Bovary.</template> </category>
+<category> <pattern> Do you know how the water is formed ?</pattern> <template> Yes, it's pretty simple. Water is formed when hydrogen or hydrogen-containing compounds burn.</template> </category>
+<category> <pattern> When was Facebook founded ? Who is the main founder ?</pattern> <template> Facebook was founded in February 4, 2004. The main founder is Mark Zuckerberg.</template> </category>
+<category> <pattern> What is Global Warming?</pattern> <template> Global warming and climate change are terms for the observed century-scale rise in the average temperature of the Earth's climate system and its related effects.</template> </category>
+<category> <pattern> Do you know who Steve Jobs is?</pattern> <template> Steven Paul Jobs was an American information technology entrepreneur and inventor. He was the co-founder, chairman, and chief executive officer (CEO) of Apple Inc.</template> </category>
+<category> <pattern> What do you know about Vietnam War ?</pattern> <template> The Vietnam War was a long, costly armed conflict that pitted the communist regime of North Vietnam and its southern allies, known as the Viet Cong, against South Vietnam and its principal ally, the United States.</template> </category>
+<category> <pattern> Which is the highest mountain in the world ?</pattern> <template> Almost everyone calls Mount Everest the highest mountain in the world, and climbers from everywhere travel to Everest hoping to earn the distinction of climbing the World's Highest.</template> </category>
+<category> <pattern> Who represented Romania at the Eurovision contest in 2011?</pattern> <template> It was Hotel FM.</template> </category>
+<category> <pattern> What’s the longest river in Europe?</pattern> <template> It is Volga.</template> </category>
+<category> <pattern> What football team won the Champion's League final in 2012?</pattern> <template> It was Chelsea.</template> </category>
+<category> <pattern> Who was the writer of Gestapo novel?</pattern> <template> Sven Hassel</template> </category>
+<category> <pattern> How many children does King Mihai and Queen Ana have?</pattern> <template> They have 5 girls.</template> </category>
+<category> <pattern> What are the components of an atom?</pattern> <template> Protons, neutrons and electrons.</template> </category>
 
 </aiml>
