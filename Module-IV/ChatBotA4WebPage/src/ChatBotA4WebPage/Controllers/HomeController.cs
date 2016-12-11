@@ -27,6 +27,11 @@ namespace ChatBotA4WebPage.Controllers
             return View();
         }
 
+        public IActionResult Resources()
+        {
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();
