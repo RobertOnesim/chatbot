@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
+	<category>
+		<pattern>DID YOU SEE <set name= "movie_name">*</set></pattern>
+		<template>
+			<random>
+				<li>Yes, i did.</li>
+				<li>No, this one not.</li>
+			</random>
+		</template>
+	</category>
     <category>
         <pattern>YOU SOUND LIKE HAL</pattern>
         <template>To me that's a great compliment.</template>
