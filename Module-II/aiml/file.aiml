@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+<aiml>
+<category> <pattern> Is it cold outside?</pattern> <template> Yes, it is cold, it’s 2 degrees Celsius.</template> </category>
+<category> <pattern> Who is the main character in The Catcher in the Rye?</pattern> <template> The main character in The Catcher in the Rye is Holden Caulfield, a sixteen-year-old junior who has just been for academic failure from his school.</template> </category>
+<category> <pattern>  What is the capital of Iceland?</pattern> <template> The capital of Iceland is Reykjavik.</template> </category>
+<category> <pattern> How long did the person who discovered the theory of relativity live?</pattern> <template> The person who discovered the theory of relativity is Albert Einstein, who lived for 76 years.</template> </category>
+<category> <pattern> What is the root of the equation: 2*x+4=0</pattern> <template> The root is: x=-2.</template> </category>
+<category> <pattern> How many pages has the last novel written by F. Scott Fitzgerald?</pattern> <template> The last novel written by F. Scott Fitzgerald is The Love of the Last Tycoon, which had 163 pages.</template> </category>
+<category> <pattern> What is love?</pattern> <template> Baby don’t hurt me, don’t hurt me, no more.</template> </category>
+<category> <pattern> What was the large earthquake from Romania and Europe?</pattern> <template> The 1940 earthquake registered a magnitude of 7.7 on the Richter scale, being the strongest earthquake recorded in the 20th century in Romania.</template> </category>
+<category> <pattern> What's 16 times 42?</pattern> <template> It's 672.</template> </category>
+<category> <pattern> When is my next meeting?</pattern> <template> Your next meeting is tomorrow at 11AM.</template> </category>
+<category> <pattern> Where am I?</pattern> <template> You are at Faculty of Computer Science Iasi, Romania, Bulevardul Carol I 11.</template> </category>
+<category> <pattern> Will it be hot today?</pattern> <template> Today will be 9 degrees C, cloudy and rainy.</template> </category>
+<category> <pattern> What should I wear for Halloween?</pattern> <template> Just be yourself, pumpkin.</template> </category>
+<category> <pattern> What's my favourite movie?</pattern> <template> Your favourite movie is Harry Potter. You've seen it 20 times.</template> </category>
+<category> <pattern> Is Paris the capital of France?</pattern> <template> Yes, it is.</template> </category>
+<category> <pattern> Can you suggest me a good book to read that was released this year and is written in English?</pattern> <template> I can suggest you, by your favourite movie, Harry Potter and the Cursed Child book by J.K.Rowling. I've read/heard that internet is pretty hyped about it.</template> </category>
+<category> <pattern> What is the highest mountain? </pattern> <template> The highest mountain is Everest. It has 8.848 m.</template> </category>
+<category> <pattern> If my grandmother had three childs, and each of them had 3 childs, how many nephews does my grandma has?</pattern> <template> Your grandma has 9 nephews.</template> </category>
+<category> <pattern> Is the Internet working?</pattern> <template> Yes. You're talking to me.</template> </category>
+<category> <pattern> What is the cheapest phone on emag.ro?</pattern> <template> The cheapest phone on emag.ro is Alcatel 1052G, Black.</template> </category>
+<category> <pattern> What is zero divided by zero?</pattern> <template> It is not a number.</template> </category>
+<category> <pattern> What came first? The chicken or the egg?</pattern> <template> I think you should watch this video. It explains better: https://www.youtube.com/watch?v=1a8pI65emDE</template> </category>
+<category> <pattern> How is the traffic on Autoroute A1 today?</pattern> <template> The traffic is pretty fluent today, just a traffic jam at the 54th kilometer.</template> </category>
+<category> <pattern> How good is the weather forecast in London today?</pattern> <template> According to weather.com, today’s forecast is mostly cloudy, with a temperature ranging from 11 to 15 degrees Celsius.</template> </category>
+<category> <pattern> How are the main candidates for US president selection this year?</pattern> <template> The only two candidates that remained in the race for US president elections are Donald Trump and Hillary Clinton.</template> </category>
+<category> <pattern> What is the best movie you would recommend me?</pattern> <template> The best movie would be The Shawshank Redemption.</template> </category>
+<category> <pattern> What is the most expensive car so far?</pattern> <template> By 2016, the most expensive car is the Koenigsegg CCXR Trevita, priced at $4.8 million.</template> </category>
+<category> <pattern> Am I able to buy one?</pattern> <template> If you are rich, maybe. It costs $4.8 million. Also, there are only three cars that were made so far, so you should consider hurrying up.</template> </category>
+<category> <pattern> Why can’t fish breathe out of water?</pattern> <template> The fish gills, through which they breathe, collapse out of water thus giving little surface area left for gas exchange. They do survive for a short period of time before they asphyxiate.</template> </category>
+
+</aiml>
