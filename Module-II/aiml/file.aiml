@@ -30,5 +30,65 @@
 <category> <pattern> What is the most expensive car so far?</pattern> <template> By 2016, the most expensive car is the Koenigsegg CCXR Trevita, priced at $4.8 million.</template> </category>
 <category> <pattern> Am I able to buy one?</pattern> <template> If you are rich, maybe. It costs $4.8 million. Also, there are only three cars that were made so far, so you should consider hurrying up.</template> </category>
 <category> <pattern> Why can’t fish breathe out of water?</pattern> <template> The fish gills, through which they breathe, collapse out of water thus giving little surface area left for gas exchange. They do survive for a short period of time before they asphyxiate.</template> </category>
+<category> <pattern> Hello ! How are you doing ?</pattern> <template> Pretty good. Trying to handle my last year in college.</template> </category>
+<category> <pattern> Who is God? Morgan Freeman ?</pattern> <template> Morgan Freeman is only the voice of God.</template> </category>
+<category> <pattern> Where are you now?</pattern> <template> I'm at college, studying for my future.</template> </category>
+<category> <pattern> Good for you. How do you see your future?</pattern> <template> Good.</template> </category>
+<category> <pattern> Who is Steve Jobs?</pattern> <template> Steve Jobs was the co-founder of Apple Inc.</template> </category>
+<category> <pattern> Do you like Apple products ?</pattern> <template> Well .. they look fancy, but I don't like their latest iPhone7 because it has no audio jack so now most existing headphones are unusable...</template> </category>
+<category> <pattern> Do you like AAA games?</pattern> <template> Yes, I do. Especially Dark Souls 3. I love it.</template> </category>
+<category> <pattern> What do you know about Dark Souls 2?</pattern> <template> I know it is an action role-playing game published by Bandai Namco. It has very good ratings so it must be a good game.</template> </category>
+<category> <pattern> What is Github and what do you use it for?</pattern> <template> Github is a version control system launched in 2008. Version control systems keep these revisions straight, and store the modifications in a central repository. This allows developers to easily collaborate.</template> </category>
+<category> <pattern> Who is Ultron?</pattern> <template> Ultron is a fictional supervillain appearing in Marvel Comics.</template> </category>
+<category> <pattern> What music do you like?</pattern> <template> Heavy metal.</template> </category>
+<category> <pattern> Do you like Iron Maiden or Metallica?</pattern> <template> I think Iron Maiden... they have a better reputation.</template> </category>
+<category> <pattern>  What are memes?</pattern> <template> A meme acts as a unit for carrying cultural ideas, symbols.</template> </category>
+<category> <pattern> What do you think about programming?</pattern> <template> There is an ongoing debate on the extent to which the writing of programs is an art form, a craft, or an engineering discipline.</template> </category>
+<category> <pattern> Who are your favourite movie villains?</pattern> <template> Sauron from The Lord of The Rings and Hannibal Lecter from The Silence of the Lambs.</template> </category>
+<category> <pattern> What does the Zen of Python contains ?</pattern> <template>  It contains software principles that influences the design of Python. For example:Flat is better than nested.</template> </category>
+<category> <pattern> Which elements symbol is the letter K on the periodic table?</pattern> <template> Potassium.</template> </category>
+<category> <pattern> What's your name, George?</pattern> <template> George.</template> </category>
+<category> <pattern> What is your favourite type of music?</pattern> <template> I listen most to rock, jazz and old electronic music.</template> </category>
+<category> <pattern> What is your favourite food?</pattern> <template> I love pizza, barbeque and pork meat.</template> </category>
+<category> <pattern> What do you for living?</pattern> <template> Now, I`m a student.</template> </category>
+<category> <pattern> What do you study?</pattern> <template> I study Computer Science.</template> </category>
+<category> <pattern> Do you have any siblings?</pattern> <template> Yes, I have an younger sister.</template> </category>
+<category> <pattern> What do your parents do for a living?</pattern> <template> My mother is a housewife and my father is a bus-driver.</template> </category>
+<category> <pattern> What is your favourite programming language?</pattern> <template> I prefer Python.</template> </category>
+<category> <pattern> What is the longest river from Africa?</pattern> <template> I am sure that it is Nile.</template> </category>
+<category> <pattern> How many planets are in our Solar System?</pattern> <template> In our Solar System there are only 8 planets, supposing that Pluto is not a planet.</template> </category>
+<category> <pattern> What's your zodiac sign?</pattern> <template> I'm a Sagittarius.</template> </category>
+<category> <pattern> How many chakras there are ther in human body?</pattern> <template> There are seven chakras.</template> </category>
+<category> <pattern> What is Java?</pattern> <template> Java is a general-purpose computer programming language.</template> </category>
+<category> <pattern>  What other programming languages do you know?</pattern> <template> I know Python, C++, Php.</template> </category>
+<category> <pattern>  Where do you want to work?</pattern> <template> I would like to work at Facebook.</template> </category>
+
+<category> <pattern> Can you work in your favourite language at this company?</pattern> <template> Yes,  I can work  Android platform. It is based on Java programming language.</template> </category>
+<category> <pattern> Do you know what is the maximum altitude of Everest?</pattern> <template> 8,848 metres</template> </category>
+<category> <pattern> What is your favourite season?</pattern> <template> Winter</template> </category>
+<category> <pattern> What winter sports do you like?</pattern> <template> Snowboard and sleigh.</template> </category>
+<category> <pattern> Did you saw last year Olympic Games?</pattern> <template> No. Olympic Games was 2 years ago.</template> </category>
+<category> <pattern> Who is Vladimir Putin?</pattern> <template> Vladimir Vladimirovich Putin is a Russian politician who is the current President of the Russian Federation.</template> </category>
+<category> <pattern> God exist?</pattern> <template> There is no answer for this question.</template> </category>
+<category> <pattern> What courses do you teach?</pattern> <template> I teach Math and Machine Learning.</template> </category>
+<category> <pattern> Have you visited any country?</pattern> <template> I visited Italy last year. I visited Venice and I haven't visited Rome.</template> </category>
+<category> <pattern> What are the important touristic places in Rome?</pattern> <template> I know a lot of touristic places. Some of them are: Colosseum, Forum Romanum, Trevi Fountain, Piazza del Popolo and more others.</template> </category>
+<category> <pattern> What do you know about Colosseum?</pattern> <template> The Colosseum is situated just east of the Roman Forum. Construction began under the emperor Vespasian in AD 72,[2] and was completed in AD 80 under his successor and heir Titus. Although partially ruined because of damage caused by earthquakes and stone-robbers, the Colosseum is still an iconic symbol of Imperial Rome. It is one of Rome's most popular tourist attractions and has also links to the Roman Catholic Church, as each Good Friday the Pope leads a torchlit Way of the Cross procession that starts in the area around the Colosseum.</template> </category>
+<category> <pattern> What do you know about legend of Rome?</pattern> <template> The most familiar of these myths, and perhaps the most famous of all Roman myths, is the story of Romulus and Remus, the twins who were suckled by a she-wolf. They decided to build a city, but after an argument, Romulus killed his brother and the city took his name.</template> </category>
+<category> <pattern>  I want to ask you something about Machine Learning. I didn't find a standard definition for this domain. Can you give me more details?</pattern> <template> Machine learning is the subfield of computer science that gives computers the ability to learn without being explicitly programmed. Machine learning is a type of artificial intelligence (AI) that provides computers with the ability to learn without being explicitly programmed. Machine learning focuses on the development of computer programs that can teach themselves to grow and change when exposed to new data.</template> </category>
+<category> <pattern> How this course, Machine Learning, can be used for?</pattern> <template> Some application of Machine Learning are: Face Detection, Anti-spam, Image Classification, Speech Recognition, Weather forecast.</template> </category>
+<category> <pattern> Are you married?</pattern> <template> Yes, I'm married since 2006 and have two kids.</template> </category>
+<category> <pattern> What is your favorite sport?</pattern> <template> I like playing football.</template> </category>
+<category> <pattern> Where will be the next FIFA World Cup event?</pattern> <template> It is scheduled to take place in Russia from 14 June to 15 July 2018.</template> </category>
+<category> <pattern> Who is the actual president of your country?</pattern> <template> Klaus Iohannis.</template> </category>
+<category> <pattern> Tell me five landlocked countries from Europe?</pattern> <template> Austria, Czech Republic, Macedonia, Moldova, Switzerland.</template> </category>
+<category> <pattern> Who wrote the novel Romeo and Juliet?</pattern> <template> Romeo and Juliet is a tragedy written by William Shakespeare early in his career about two young star-crossed lovers whose deaths ultimately reconcile their feuding families.</template> </category>
+<category> <pattern> Which romanian actress played in The Passion of the Christ movie?</pattern> <template> Maia Emilia Ninel Morgenstern.</template> </category>
+<category> <pattern> What area of the brain controls muscle coordination and balance?</pattern> <template> The cerebrum, the cerebellum and the brain stem are all integral parts of coordinating muscular movement. The brain is part of a vast network, known as the nervous system, which is responsible for all muscle movement.</template> </category>
+<category> <pattern> Can you give me a top list of three countries regarding alcohol consumption?</pattern> <template> According to wordatlas.com top three countries are: Estonia, Belarus and Lithuania. According to telegraph.co.uk top three countries are: Belarus, Moldova and Lithuania.</template> </category>
+<category> <pattern> What's the hexadecimal color for green?</pattern> <template> #00ff00</template> </category>
+<category> <pattern> And something else about java?</pattern> <template> It does not have explicit pointers.</template> </category>
+<category> <pattern> How far away is the moon?</pattern> <template> The moon is 384400 km away..</template> </category>
+<category> <pattern> The dark side of the moon: What is it?</pattern> <template> Some say that NASA is covering up the real reason we never returned to the moon and what is it on It's dark side, some say It's an alien base on the dark side of the moon and some say that the moon itself is an alien spaceship.</template> </category>
 
 </aiml>
