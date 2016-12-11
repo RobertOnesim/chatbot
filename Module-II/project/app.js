@@ -17,11 +17,12 @@ var urlDB = 'mongodb://localhost:27017/chatbot';
 var userRoutes = require('./routes/userRoutes')(urlDB);
 var aimlRoutes = require('./routes/aimlRoutes')(urlDB);
 var wolframRoutes = require('./routes/wolframRoutes')(urlDB);
-
+var imdbRoutes = require('./routes/imdbRoutes')(urlDB);
 
 app.use('/api/chatbot/user', userRoutes);
 app.use('/api/chatbot/aiml', aimlRoutes);
 app.use('/api/chatbot/wolfram', wolframRoutes);
+app.use('/api/chatbot/imdb', imdbRoutes);
 
 
 app.get('/api/chatbot/', function (req, res) {
