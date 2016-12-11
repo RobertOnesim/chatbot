@@ -15,8 +15,11 @@ app.use(expressValidator());
 var urlDB = 'mongodb://localhost:27017/chatbot';
 
 var userRoutes = require('./routes/userRoutes')(urlDB);
+var aimlRoutes = require('./routes/aimlRoutes')(urlDB);
+
 
 app.use('/api/chatbot/user', userRoutes);
+app.use('/api/chatbot/aiml', aimlRoutes);
 
 app.get('/api/chatbot/', function (req, res) {
     res.send({message: 'Hello. my API for user ...'});
