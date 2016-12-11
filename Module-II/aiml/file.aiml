@@ -90,7 +90,8 @@
 <category> <pattern> And something else about java?</pattern> <template> It does not have explicit pointers.</template> </category>
 <category> <pattern> How far away is the moon?</pattern> <template> The moon is 384400 km away..</template> </category>
 <category> <pattern> The dark side of the moon: What is it?</pattern> <template> Some say that NASA is covering up the real reason we never returned to the moon and what is it on It's dark side, some say It's an alien base on the dark side of the moon and some say that the moon itself is an alien spaceship.</template> </category>
-<category> <pattern> What do you do for living?</pattern> <template> I am a student.I am in third year at Computer Science in Iasi.</template> </category>
+
+<category> <pattern> What do you do for living?</pattern> <template> I am a student.I am in third year at Computer Science in Iasi.</template> </category>
 <category> <pattern> What are the oop principles?</pattern> <template> The main principles of oop are inheritance, overwriting, overloading, abstraction.</template> </category>
 <category> <pattern> In what year the World War II ended?</pattern> <template> World War II has ended in 1945.</template> </category>
 <category> <pattern> Between what years the Cold War it was taken?</pattern> <template> Cold War has been taken between 1947 and 1991.</template> </category>
@@ -132,4 +133,60 @@
 <category> <pattern> How many children does King Mihai and Queen Ana have?</pattern> <template> They have 5 girls.</template> </category>
 <category> <pattern> What are the components of an atom?</pattern> <template> Protons, neutrons and electrons.</template> </category>
 
+
+<category> <pattern> What are some famous songs by Mozart? </pattern> <template>The Marriage of Figaro,Don Giovanni ,Così fan tutte </template> </category>
+<category> <pattern> What is the most famous novel? </pattern> <template>Wuthering Heights by Emily Brontë </template> </category>
+<category> <pattern> Who won the US election </pattern> <template> Donald Trump </template> </category>
+<category> <pattern> What is the best programing language </pattern> <template> C/C++ </template> </category>
+<category> <pattern> How do you think the world will be different in 10 years time </pattern> <template> More tehnologized </template> </category>
+<category> <pattern> Is lead poisonous </pattern> <template> Yes, it is </template> </category>
+<category> <pattern> What is the highest paid profession </pattern> <template> Physicians and surgeons </template> </category>
+<category> <pattern> How does YouTube compare to Facebook in terms of users </pattern> <template> Facebook is more popular </template> </category>
+<category> <pattern> What's the most expensive car in the world </pattern> <template> Koenigsegg CCXR Trevita </template> </category>
+<category> <pattern> What's the price for a car like this? </pattern> <that> What's the most expensive car in the world </that><template> $4.8 million </template> </category>
+<category> <pattern> What do you think determines this huge price? </pattern> <that> $4.8 million </that><template> High quality materials </template> </category>
+<category> <pattern> Do you know one of the most famous paintings in the world </pattern> <template> Mona Lisa – Leonardo da Vinci </template> </category>
+<category> <pattern> What is the year when the programming language Fortran appeared and what do you about it's use today? </pattern> <template> 1950 was the year </template> </category>
+<category> <pattern> What's the name of the spaceflight that landed humans on the Moon? When did this happen and who was in the spaceflight </pattern> <template> Apollo 11 is the name </template> </category>
+<category> <pattern> Do you think that this first space travel to the Moon it had a strong impact on humanity </pattern> <template> Yes, it had a big impact on humanity, it was the bigest step which humanity could make it </template> </category>
+<category> <pattern> What's one of the oldest temple from the world </pattern> <template> One of the oldest temple from the world is Palace of Knossos </template> </category>
+<category> <pattern> What do you think are the most important discoveries ever made? </pattern> <template> I think that most important dicovery is Electricity </template> </category>
+<category> <pattern> What's your favorite animal </pattern> <template> Dogs </template> </category>
+<category> <pattern> Who wrote "Madame Bovary"? </pattern> <template> Gustave Flaubert  is the writer of the novel "Madame Bovary </template> </category>
+<category> <pattern> How many years have passed from the dead of Albert Einstein </pattern> <template> 61 </template> </category>
+<category> <pattern> What is a neuron </pattern> <template> A neruon is a cell that processes and transmits information through electrical and chemical signals </template> </category>
+<category> <pattern> What's your favorite thing to do </pattern> <template> My favorite activity is reading </template> </category>
+<category> <pattern> What was Mihai Eminescu’s girlfriend profession? </pattern> <template> She was a writer </template> </category>
+<category> <pattern> Who was the first man who walked on the moon? </pattern> <template> The first man who walked on the moon was Neil Armstrong </template> </category>
+<category> <pattern> Which is the second largest building in the world </pattern> <template>The second largest building in the world is the Palace of the Parliament. </template> </category>
+<category> <pattern> How many childrens have the president of Romania, Klaus Iohannis </pattern> <template> He has no child </template> </category>
+<category> <pattern> Do you have a prefered genre of music </pattern> <template> Electronic music </template> </category>
+<category> <pattern> Do you know who directed the movie Inception </pattern> <template> The Inception's director is Christopher Nolan. </template> </category>
+<category> <pattern> Who is your favorite actor? </pattern> <template> I guess Tom Hanks </template> </category>
+<category> <pattern> Do you know the formula for sulfuric acid </pattern> <template> Yes. It's H2SO4 </template> </category>
+<category> <pattern> Can the sulfuric acid be deadly for a human </pattern> <template> Most definitely </template> </category>
+<category> <pattern> What is your favorite piece of literature </pattern> <template> Literature for personal development </template> </category>
+<category> <pattern> Do you know how long it’s been since the first video game came out </pattern> <template> I think it’s been 58 years </template> </category>
+<category> <pattern> What is your opinion on the influence of video games on children </pattern> <template>  One one hand, videogames improve problem solving and hand-eye, coordination, but some blame videogames for the violence depicted in some of them</template> </category>
+<category> <pattern> What does H2O stand for </pattern> <template> That would be water </template> </category>
+<category> <pattern> In your opinion, what are the most important discoveries in chemistry </pattern> <template>  I have to go with radioactivity and medicine </template> </category>
+<category> <pattern> Speaking of radioactivity, do you know who discovered it  </pattern> <template> It was Whilhel Conrad Roentgen who discovered it, but also Henri Becquerel and the Curie family </template> </category>
+<category> <pattern> Do you want to go grab a beer </pattern> <template> I can't </template> </category>
+<category> <pattern> Do you know any nice place we could go to </pattern> <template> Anywhere there's an Internet connection </template> </category>
+<category> <pattern> Do you know when the second world war started </pattern> <template> Yes, on the 1st of september,1939 </template> </category>
+<category> <pattern> Do you know who is the fastest man in the world </pattern> <template> Yes ! It's Usain Bolt </template> </category>
+<category> <pattern> Do you know who is the tallest man in the world </pattern> <template> Yes, it's Robert Pershing Wadlow </template> </category>
+<category> <pattern> Who set the record for the largest collection of garden gnomes </pattern> <template> It's Ann Atkins </template> </category>
+<category> <pattern> How many storeys had the largest house of cards </pattern> <template> 75 </template> </category>
+<category> <pattern> Who was the wealthiest cat </pattern> <template> Blackie becomes the wealthiest cat when its owner dies and leaves it $12.5 million </template> </category>
+<category> <pattern> What do you choose between Samsung S7 and Iphone 6S? I need an advice </pattern> <template> I bet on Samsung. It’s processor is more capable and has better camera, twice the memory</template> </category>
+<category> <pattern> Which country has the largest population </pattern> <template> China, of course with 1,379,490,000 </template> </category>
+<category> <pattern> Can you think of anything fun to do </pattern> 
+           <template><random><li>Play Board Games</li>
+                             <li>Do a Road Rally With Friends</li>
+                             <li>Go to the Park</li>
+                             <li>Watch the Sunset</li>
+                             <li>Pack a Picnic Lunch/li>
+                             <li>Play Card Games</li>
+           </random></template> </category>
 </aiml>
