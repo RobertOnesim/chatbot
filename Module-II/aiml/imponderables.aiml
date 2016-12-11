@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
     <category>
-        <pattern>IMPONDERABLES</pattern>
+        <pattern>WHAT WOULD YOU WANT TO KNOW</pattern>
         <template>
             <random>
                 <li>Do fish ever sneeze?</li>
@@ -104,6 +104,27 @@
                 <li>Why is it that when you're driving and looking for an address, you turn down the volume on the radio?</li>
                 <li>If it's zero degrees today and tomorrow is supposed to be twice as cold, what will tomorrow's temperature be?</li>
                 <li>A bus station is where a bus stops; a train station is where a train stops. What occurs at a desk with a work station?</li>
+                <li>Who closes the door after the bus driver gets off the bus?</li>
+                <li>Why are pizza boxes square when the pizza is round?</li>
+                <li>What ever happened to an E grade? We have A,B,C,D,F but no E.</li>
+                <li>Why is there a light in the fridge and not in the freezer?</li>
+                <li>Don’t you find it worrying that doctors call treating you their “practice” ?</li>
+                <li>Do they have the word “dictionary” in the dictionary?</li>
+                <li>If croutons are stale bread, why do they come in airtight packages?</li>
+                <li>Why can’t women put on mascara with their mouth closed?</li>
+                <li>If a transport truck carrying a load of cars gets into a car accident, does it increase the number of the cars in the pile-up?</li>
+                <li>In France do people just ask for toast and get French toast? or do they have to ask for American toast?</li>
+                <li>Why is it called a “drive through” if you have to stop?</li>
+                <li>Why does mineral water that has “trickled through mountains for centuries” go out of date next year?</li>
+                <li>If Milli Vanilli fell in the woods, would someone else make a sound ?</li>
+                <li>Why are SOFTballs hard?</li>
+                <li>Do vampires get AIDS?</li>
+                <li>Why do toasters always have a setting that burns the toast to a horrible crisp which no decent human being would eat?</li>
+                <li>Why are they called goose bumps? Do geese get people bumps?</li>
+                <li>Why is it that lemon dishsoap is made with real lemons, but lemon juice is artificial flavoring?</li>
+                <li>If you stole a pen from a bank then would it still be considered a bank robbery?</li>
+                <li>Is French kissing in France just called kissing?</li>
+                <li>Why can magicians make things disappear into thin air, but not thick air?</li>
                 <li>Why is it that when you send something by truck it's called a shipment, but when you send it by ship it's called cargo?</li>
             </random>
         </template>
