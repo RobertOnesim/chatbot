@@ -83,3 +83,10 @@ Example:
 	Diana: 1, 2, 3, 5
 	Madalina: 1, 2, 3, 5
 	Iulian: 1, 3, 5
+	
+##Week 3
+
+	1. Integrate the new files .aiml found
+	2. Update all files .aiml
+	3. Ontology
+	
