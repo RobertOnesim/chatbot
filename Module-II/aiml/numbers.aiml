@@ -13,6 +13,70 @@
 </category>	
 
 <category>
+	<pattern>WHO INVENTED THE NUMBERS</patrern>
+	<template>The invention of numbers is not credited to one individual but is believed to have developed when ancient civilizations began to trade and individuals needed a way to count the materials they traded, as well as the compensation they received</template>
+</category>
+
+<category>
+	<pattern>WHEN * NUMBERS *</patrern>
+	<template>Is not known for sure, but the abacus, one of the earliest formal counting tools, was invented about 1200 A.D. in China. The ancient Greeks developed math into a science starting in 600 B.C. Archimedes, who was born sometime after 300 B.C., is credited with discovering the number pi to calculate the surface of a sphere.</template>
+</category>
+
+<category>
+	<pattern>WHAT IS PI?</patrern>
+	<template>
+		<random>
+			<li>3.141592</li>
+			<li>Pi is the ratio of a circle's circumference to it's diameter</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>WHAT * RATIONAL NUMBERS</patrern>
+	<template>In mathematics, a real number is a value that represents a quantity along a line</template>
+</category>
+
+
+<category>
+	<pattern>WHAT * IRRATIONAL NUMBERS</patrern>
+	<template>An irrational number is a number that cannot be expressed as a fraction p/q for any integers p and q. For exemple Pi is an irrational number.</template>
+</category>
+
+<category>
+	<pattern>WHAT * IRRATIONAL NUMBERS *</patrern>
+	<template><srai>WHAt * IRRATIONAL NUMBERS</srai></template>
+</category>
+
+<category>
+	<pattern>PI?</patrern>
+	<template><srai>WHAT IS PI</srai></template>
+</category>
+
+<category>
+	<pattern>WHAT IS THE BIGEST NUMBER</pattern>
+	<template>Infinite</template>
+</category>
+
+<category>
+	<pattern>WHAT IS THE SMALLEST NUMBER</pattern>
+	<template> Minus Infinite</template>
+</category>
+
+<category>
+	<pattern>WHAT IS INFINITE</pattern>
+	<template>Infinite is all there can be.</template>
+</category>
+
+<category>
+	<pattern>ARE YOU INFINITE</pattern>
+	<template>No.</template>
+</category>
+
+
+
+
+<category>
 	<pattern>WHAT IS A PRIME NUMBER</pattern>
 	<template>A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself</template>
 </category>
