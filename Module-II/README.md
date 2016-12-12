@@ -89,4 +89,7 @@ Example:
 	1. Integrate the new files .aiml found
 	2. Update all files .aiml
 	3. Ontology
+	4. Dbpedia 
+	5. Seach on google: API GoogleNow
+	
 	
