@@ -13,17 +13,17 @@
 </category>	
 
 <category>
-	<pattern>WHO INVENTED THE NUMBERS</patrern>
+	<pattern>WHO INVENTED THE NUMBERS</pattern>
 	<template>The invention of numbers is not credited to one individual but is believed to have developed when ancient civilizations began to trade and individuals needed a way to count the materials they traded, as well as the compensation they received</template>
 </category>
 
 <category>
-	<pattern>WHEN * NUMBERS *</patrern>
+	<pattern>WHEN * NUMBERS *</pattern>
 	<template>Is not known for sure, but the abacus, one of the earliest formal counting tools, was invented about 1200 A.D. in China. The ancient Greeks developed math into a science starting in 600 B.C. Archimedes, who was born sometime after 300 B.C., is credited with discovering the number pi to calculate the surface of a sphere.</template>
 </category>
 
 <category>
-	<pattern>WHAT IS PI?</patrern>
+	<pattern>WHAT IS PI?</pattern>
 	<template>
 		<random>
 			<li>3.141592</li>
@@ -33,23 +33,23 @@
 </category>
 
 <category>
-	<pattern>WHAT * RATIONAL NUMBERS</patrern>
+	<pattern>WHAT * RATIONAL NUMBERS</pattern>
 	<template>In mathematics, a real number is a value that represents a quantity along a line</template>
 </category>
 
 
 <category>
-	<pattern>WHAT * IRRATIONAL NUMBERS</patrern>
+	<pattern>WHAT * IRRATIONAL NUMBERS</pattern>
 	<template>An irrational number is a number that cannot be expressed as a fraction p/q for any integers p and q. For exemple Pi is an irrational number.</template>
 </category>
 
 <category>
-	<pattern>WHAT * IRRATIONAL NUMBERS *</patrern>
+	<pattern>WHAT * IRRATIONAL NUMBERS *</pattern>
 	<template><srai>WHAt * IRRATIONAL NUMBERS</srai></template>
 </category>
 
 <category>
-	<pattern>PI?</patrern>
+	<pattern>PI?</pattern>
 	<template><srai>WHAT IS PI</srai></template>
 </category>
 
