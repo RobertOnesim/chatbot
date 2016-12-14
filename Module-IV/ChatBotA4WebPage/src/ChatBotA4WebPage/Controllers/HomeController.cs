@@ -12,10 +12,6 @@ namespace ChatBotA4WebPage.Controllers
         {
             return View();
         }
-        public IActionResult T2S()
-        {
-            return View();
-        }
 
         public IActionResult About()
         {

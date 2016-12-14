@@ -1,21 +1,120 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-<div class="jumbotron">
-    <h1>Dialog</h1>
-    <hr />
-        <label class="control-label" for="form-group-input">Enter your question here.</label>
-        <input type="text" class="form-control" id="question" placeholder="Question">
-        <input type="submit" class="form-control" id="submit" value="Ask" onclick="append()"/>
+<body >
+    <div class="jumbotron">
+        <h1>Dialog</h1>
         <hr />
-        <textarea class="form-control" rows="10" id="dialog"></textarea>
-</div>
+        <P>
+            <B>What type of voice would you like the text to be spoken?</B>
+        <P>
+            <INPUT TYPE="radio" id="r1" NAME="answer" value="1">Male<BR>
+            <INPUT TYPE="radio" id="r2" NAME="answer" value="2">Female<BR>
+        <P>
+            <label class="control-label" for="form-group-input">Enter your question here.</label>
+            <textarea class="form-control" id="transcription" onfocus="clearContents(this);"></textarea>
+            <label><input type="radio" name="recognition-type" value="final" checked="checked" /></label>
+            <label><input type="radio" name="recognition-type" value="interim" /></label>
+            <div id="log"></div>
+            <div class="buttons-wrapper">
+                <button id="button-play-ws" class="button-demo">Register</button>
+                <button id="button-stop-ws" class="button-demo">Stop register</button>
+            </div>
+            <span id="ws-unsupported" class="hidden">API not supported</span>
 
-<script language="javascript">
-    function append() {
-        var s = $('#question').val() + '\n' + "answer\n";
-        responsiveVoice.speak("answer");
-        $('#dialog').append(s);
-}
-</script>
+            <input type="submit" class="form-control" id="submit" value="Ask" onclick="append()" />
+            <hr />
+            <textarea class="form-control" rows="10" id="dialog"></textarea>
+    </div>
+
+    <script language="javascript">
+
+        // Test browser support
+        window.SpeechRecognition = window.SpeechRecognition ||
+                                   window.webkitSpeechRecognition ||
+                                   null;
+
+        if (window.SpeechRecognition === null) {
+            document.getElementById('ws-unsupported').classList.remove('hidden');
+            document.getElementById('button-play-ws').setAttribute('disabled', 'disabled');
+            document.getElementById('button-stop-ws').setAttribute('disabled', 'disabled');
+        } else {
+            var recognizer = new window.SpeechRecognition();
+            var transcription = document.getElementById('transcription');
+            var log = document.getElementById('log');
+
+            // Recogniser doesn't stop listening even if the user pauses
+            recognizer.continuous = true;
+
+            // Start recognising
+            recognizer.onresult = function (event) {
+                transcription.textContent = '';
+
+                for (var i = event.resultIndex; i < event.results.length; i++) {
+                    if (event.results[i].isFinal) {
+                        transcription.textContent = event.results[i][0].transcript + ' (Confidence: ' + event.results[i][0].confidence + ')';
+                    } else {
+                        transcription.textContent += event.results[i][0].transcript;
+                    }
+                }
+            };
+
+            // Listen for errors
+            recognizer.onerror = function (event) {
+                log.innerHTML = 'Recognition error: ' + event.message + '<br />' + log.innerHTML;
+            };
+
+            document.getElementById('button-play-ws').addEventListener('click', function () {
+                // Set if we need interim results
+                recognizer.interimResults = document.querySelector('input[name="recognition-type"][value="interim"]').checked;
+
+                try {
+                    recognizer.start();
+                    log.innerHTML = 'Recognition started' + '<br />' + log.innerHTML;
+                } catch (ex) {
+                    log.innerHTML = 'Recognition error: ' + ex.message + '<br />' + log.innerHTML;
+                }
+            });
+
+            document.getElementById('button-stop-ws').addEventListener('click', function () {
+                recognizer.stop();
+                log.innerHTML = 'Recognition stopped' + '<br />' + log.innerHTML;
+            });
+
+            document.getElementById('submit').addEventListener('click', function () {
+                transcription.textContent = '';
+                log.textContent = '';
+            });
+        }
+        function similar(a, b) {
+            var lengthA = a.length;
+            var lengthB = b.length;
+            var equivalency = 0;
+            var minLength = (a.length > b.length) ? b.length : a.length;
+            var maxLength = (a.length < b.length) ? b.length : a.length;
+            for (var i = 0; i < minLength; i++) {
+                if (a[i] == b[i]) {
+                    equivalency++;
+                }
+            }
+            var weight = equivalency / maxLength;
+            return (weight * 100) + "%";
+        }
+        //alert(similar("test", "tes"));   // 75%
+        //alert(similar("test", "test"));  // 100%
+        //alert(similar("test", "testt")); // 80%
+        //alert(similar("test", "tess"));  // 75%
+        function append() {
+            var s = $('#transcription').val() + '\n' + "I'm ok!\n";
+            if (document.getElementById('r1').checked)
+                responsiveVoice.speak("I'm ok!", "UK English Male");
+            else
+                responsiveVoice.speak("I'm ok!");
+            $('#dialog').append(s);
+            if (similar("answer", "answer") != "100%")
+                $('#dialog').append("Raspunsul este gresit\n");
+            transcription.textContent = '';
+            log.textContent = '';
+        }
+    </script>
+</body>
