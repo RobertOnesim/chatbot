@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 	<category>
-		<pattern>DID YOU SEE <set name= "movie_name">*</set></pattern>
+		<pattern>DID YOU SEE *</pattern>
 		<template>
 			<random>
 				<li>Yes, i did.</li>

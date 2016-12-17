@@ -119,10 +119,12 @@
 	<pattern>TO GET TO THE OTHER SIDE</pattern>
 	<that>I don't know, Why?</that>
 	<template>
-		<li>HAHA, you are so funny</li>
-		<li>My algorithms calculated the same result.</li>
-		<li>Pretty predictible.</li>
-		<li>Go shot yourself.</li>
+		<random>
+			<li>HAHA, you are so funny</li>
+			<li>My algorithms calculated the same result.</li>
+			<li>Pretty predictible.</li>
+			<li>Go shot yourself.</li>
+		</random>
 	</template>
 </category>
 

@@ -183,8 +183,8 @@
 </category>
 
 <category>
-	<pattern>MY FAVORITE NUMER IS <set name="my_fav_nr">*</set></pattern>
-	<that>* your favorite number first.</that>
+	<pattern>MY FAVORITE NUMER IS * </pattern>
+	<that> <set name="my_fav_nr">*</set> your favorite number first.</that>
 	<template>
 		<random>
 			<li><srai>WHAT'S YOUR FAVORITE NUMBER</srai></li>
@@ -296,7 +296,7 @@
 <category>
 	<pattern>YES</pattern>
 	<that>Jules Verne wrote Dick Sand, A Captain at Fifteen, did you read it?</that>
-	<that>Quinceañera is a celebration * </that>
+	<that>Quinceanera is a celebration</that>
 	<that>does your state law let you drive at this age?</that>
 	<template>Nice of you.</template>
 </category>
@@ -304,7 +304,7 @@
 <category>
 	<pattern>NO</pattern>
 	<that>Jules Verne wrote Dick Sand, A Captain at Fifteen, did you read it?</that>
-	<that>Quinceañera is a celebration * </that>
+	<that>Quinceanera is a celebration </that>
 	<that>does your state law let you drive at this age?</that>
 	<template>That's too bad.</template>
 </category>
