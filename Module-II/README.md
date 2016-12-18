@@ -90,6 +90,11 @@ Example:
 	2. Update all files .aiml
 	3. Ontology
 	4. Dbpedia 
-	5. Seach on google: API GoogleNow
+	
+	Catalina: 1, 2, 3
+	Alexandra: 1, 2, 3
+	Diana: 1, 2, 3, 
+	Madalina: 1, 2, 3
+	Iulian: 1, 2, 3
 	
 	
