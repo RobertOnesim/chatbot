@@ -1,8 +1,16 @@
 import aiml
 import os
 import cPickle
+from chatterbot import ChatBot
+#import autocorrect
 import sys
 
+chatbot = ChatBot("Twitter",
+                  logic_adapters=[
+                      "chatterbot.logic.BestMatch"
+                  ],
+                  database="./twitter-database.db",
+                  )
 
 def dump_session(user_id):
     try:
@@ -35,6 +43,10 @@ def load_aiml():
     return temp_kernel
 
 
+def get_best_match_from_twitter(command):
+    return chatbot.get_response(command)
+
+
 def main():
     global sessionID
     while True:
@@ -54,10 +66,14 @@ def main():
             sessionID = None
         else:
             response = kernel.respond(command, sessionID=sessionID)
-            print response
-            # kernel.setPredicate("dog", kernel.getPredicate("dog"), sessionID)
+            if len(response) == 0:
+                print(get_best_match_from_twitter(command))
+            else:
+                print response
+                # kernel.setPredicate("dog", kernel.getPredicate("dog"), sessionID)
 
-#sys.stderr = open("stderr.txt", "w")
+
+# sys.stderr = open("stderr.txt", "w")
 sessions_path = os.path.abspath("sessions")
 kernel = load_aiml()
 sessionID = None
