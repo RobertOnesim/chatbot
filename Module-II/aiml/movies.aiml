@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
-	<category>
-		<pattern>DID YOU SEE *</pattern>
-		<template>
-			<random>
-				<li>Yes, i did.</li>
-				<li>No, this one not.</li>
-			</random>
-		</template>
-	</category>
+   <category>
+       <pattern>2001 A SPACE ODYSSEY</pattern>
+       <template>
+	   <random>
+		<li>2001 was such a cool movie.</li>
+		<li>I loved the visual effects in tha movie.</li>
+		<li>2001 is defiantely one of my most favorite fimls.</li>
+	   </random>
+       </template>
+   </category>
+   <category>
+	<pattern>DID YOU SEE *</pattern>
+        <template>
+	    <random>
+		<li>Yes, i did.</li>
+		<li>No, this one not.</li>
+	    </random>
+        </template>
+    </category>
     <category>
         <pattern>YOU SOUND LIKE HAL</pattern>
         <template>To me that's a great compliment.</template>
