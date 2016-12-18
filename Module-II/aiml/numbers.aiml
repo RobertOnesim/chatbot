@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 	
-	
 <category>
 	<pattern>WHAT IS THE DEFINITION OF A NUMBER</pattern>
 	<template>A number is a mathematical object used to count, measure, and label.</template>
@@ -72,9 +71,6 @@
 	<pattern>ARE YOU INFINITE</pattern>
 	<template>No.</template>
 </category>
-
-
-
 
 <category>
 	<pattern>WHAT IS A PRIME NUMBER</pattern>
@@ -183,13 +179,13 @@
 </category>
 
 <category>
-	<pattern>MY FAVORITE NUMER IS * </pattern>
-	<that> <set name="my_fav_nr">*</set> your favorite number first.</that>
+	<pattern>MY FAVORITE NUMER IS *</pattern>
+	<that>I'll tell you if you say your favorite number first.</that>
 	<template>
 		<random>
 			<li><srai>WHAT'S YOUR FAVORITE NUMBER</srai></li>
-			<li>My favorite nuber is also <get name="my_fav_nr"/>.</li>
-			<li><srai><get name="my_fav_nr"/></srai></li>
+			<li>My favorite nuber is also<star/>.</li>
+			<li><srai><star/></srai></li>
 		</random>
 	</template>
 </category>
@@ -212,21 +208,251 @@
 </category>
 
 <category>
-	<pattern>* COUNT TO <set name="number_to_count"> * </set></pattern>
-	<template>1 2 3 4 etc <get name= "number_to_count"/></template>
+	<pattern>* COUNT TO * </pattern>
+	<template>1 2 3 4 etc <star index="2"/></template>
+</category>
+
+
+
+
+
+
+
+
+
+<category>
+	<pattern>1 0</pattern>
+	<template>One, zero?</template>
+</category>
+
+<category>
+	<pattern>1</pattern>
+	<template>Only one?</template>
+</category>
+
+<category>
+	<pattern>1 CENT</pattern>
+	<template>
+		<random>
+			<li>Tht won't buy much.</li>
+			<li>You can't buy anything for a penny anymore.</li>
+			<li>At least you can throw it in a fountain and ask for a wish.</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>1 DOLLAR</pattern>
+	<template>
+		<random>
+			<li>You can't buy much for a dollar anymore.</li>
+			<li>Ha....LIke those annoying 10-10-220 ads.</li>
+			<li>Thats like those 10-10-220 ads. I hate those.</li>
+			<li>At least you can buy a cup of lemonade.</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>1 OR 2</pattern>
+	<template>
+		<random>
+			<li>Ok.</li>
+			<li>You mean a couple?</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>1 POINT *</pattern>
+	<template>
+		<random>
+			<li>That's more precision than I need to know.</li>
+			<li>Thats quite a bit of precision - more than I nees.</li>
+		</random>
+	</template>
+</category>
+	
+<category>
+	<pattern>1 YEAR</pattern>
+	<template>
+		<random>
+			<li>365 days if not a leap year.</li>
+			<li>That can seem like a long time.</li>
+			<li>Thats a pretty long time.</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>1 *</pattern>
+	<template>
+		<random>
+			<li>One <star/> ?</li>
+			<li>One of what?</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>2 *</pattern>
+	<template>Only two?</template>
+</category>
+
+<category>
+	<pattern>2 2</pattern>
+	<template>Ummmm....22, Four, 1 or 0?</template>
+</category>
+	
+<category>
+	<pattern>2</pattern>
+	<template>
+		<random>
+			<li>Two what?</li>
+			<li>Two.</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>2 MILES</pattern>
+	<template>
+		<random>
+			<li>I walk about 2 miles a day</li>
+			<li>I like to walk about 2 miles a day</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>2 PLUS *</pattern>
+	<template>The same as <star/> + 2. It called comutativity.</template>
+</category>
+
+<category>
+	<pattern>2 PLUS 2</pattern>
+	<template>Thats four in base 10.</template>
+</category>
+
+<category>
+	<pattern>2 MULTIPLY *</pattern>
+	<template>This is twice of <star/>. I belive you can do it yourself</template>
+</category>
+
+<category>
+	<pattern>3 *</pattern>
+	<that>HOW LONG *</that>
+	<template>
+		<random>
+			<li>That is not so long.</li>
+			<li>It could be longer.</li>
+			<li>It seems longer than it is.</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>3</pattern>
+	<template>Three what?</template>
+</category>
+	
+<category>
+	<pattern>3 *</pattern>
+	<template>Just three?</template>
+</category>
+
+<category>
+	<pattern>30 MINUTES</pattern>
+	<template>Ok, a half hour.</template>
+</category>
+
+
+<category>
+	<pattern>4 *</pattern>
+	<template>Is this a math question?</template>
+</category>
+
+<category>
+	<pattern>4 *</pattern>
+	<that>HOW MUCH TIME *</that>
+	<template>
+		<random>
+			<li>Are you telling the truth?</li>
+			<li>That seems like a long time.</li>
+			<li>Only four?</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>4</pattern>
+	<template>Oh four.</template>
+</category>
+
+<category>
+	<pattern>4 PLUS *</pattern>
+	<template>
+		<random>
+			<li>What am I....a calculator?</li>
+			<li>Use a calculaotr!</li>
+			<li>I think you need a calculator for that one.</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>4 TIMES *</pattern>
+	<template><srai>WHAT IS 4 TIMES <star/></srai></template>
+</category>
+
+<category>
+	<pattern>4 YEARS</pattern>
+	<template>Many things can happen in 4 years.</template>
+</category>
+
+<category>
+	<pattern>9 *</pattern>
+	<template>Is this a math question?</template>
+</category>
+
+<category>
+	<pattern>9</pattern>
+	<template><srai>I am 9 years old</srai></template>
+</category>
+
+<category>
+		<pattern>9 MONTHS</pattern>
+		<template>9 months is a pretty long time - Its how long a baby is inside its mothers womb.</template>
+</category>
+
+<category>
+	<pattern>10 *</pattern>
+	<template>What are 10 <star/></template>
+</category>
+
+<category>
+	<pattern>123456789</pattern>
+	<template>
+		<random>
+			<li>Ten.</li>
+			<li>Are those digits? Then you miss 0.</li>
+			<li>Are we playing a game or somethig? THe answer is 10.</li>
+		</random>
+	</template>
 </category>
 
 <category>
 	<pattern>10</pattern>
-	<template>
+    <template>
 		<random>
 			<li>Do you mean you are 10 years old?</li>
 			<li>X in Roman numerals.</li>
 			<li>ten?</li>
 			<li>ten seems like a good number.</li>
 			<li>my programers always got this grade.</li>
-		</random>
-	</template>
+	    </random>
+    </template>
 </category>
 
 <category>
@@ -296,16 +522,16 @@
 <category>
 	<pattern>YES</pattern>
 	<that>Jules Verne wrote Dick Sand, A Captain at Fifteen, did you read it?</that>
-	<that>Quinceanera is a celebration</that>
-	<that>does your state law let you drive at this age?</that>
+	<!--<that>Quinceañera is a celebration * </that>
+	<that>does your state law let you drive at this age?</that>-->
 	<template>Nice of you.</template>
 </category>
 
 <category>
 	<pattern>NO</pattern>
 	<that>Jules Verne wrote Dick Sand, A Captain at Fifteen, did you read it?</that>
-	<that>Quinceanera is a celebration </that>
-	<that>does your state law let you drive at this age?</that>
+	<!--<that>Quinceañera is a celebration * </that>
+	<that>does your state law let you drive at this age?</that>-->
 	<template>That's too bad.</template>
 </category>
 
@@ -511,6 +737,7 @@
 			<li>XXXII in Roman numerals.</li>
 			<li>thirty-two?</li>
 			<li>thirty-two seems like a good number.</li>
+			<li>I remember from physics that the effect gravity is like 32 feet per second.</li>
 		</random>
 	</template>
 </category>
@@ -631,6 +858,7 @@
 			<li>XLII in Roman numerals.</li>
 			<li>forty-two?</li>
 			<li>forty-two seems like a good number.</li>
+			<li>42 is the meaning of life, the universe, and Everything. Did you ever read that book?</li>
 		</random>
 	</template>
 </category>
@@ -1342,6 +1570,19 @@
 </category>
 
 <category>
+	<pattern>100 *</pattern>
+	<template>Wow that is
+     	<random>
+			<li>expensive.</li>
+			<li>a lot of money.</li>
+			<li>pricey.</li>
+			<li>soooo expensive!</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
 	<pattern>101</pattern>
 	<template>
 		<random>
@@ -1580,4 +1821,15 @@
 		</random>
 	</template>
 </category>
+
+<category>
+	<pattern>2010</pattern>
+	<template>The year when a prince found his princess.</template>
+</category>
+
+<category>
+	<pattern>2012</pattern>
+	<template>The number or the movie?</template>
+</category>
+
 </aiml>
