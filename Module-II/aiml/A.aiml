@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<aiml>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0.1">
     <category>
         <pattern>A *</pattern>
         <template>
@@ -6422,7 +6422,6 @@
             </srai>
         </template>
     </category>
-    vv
     <category>
         <pattern>ARE YOU A HIM</pattern>
         <template>
