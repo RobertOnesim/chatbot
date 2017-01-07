@@ -17,6 +17,7 @@
     "gulp": "^3.9.1",
     "gulp-nodemon": "^2.2.1",
     "imdb-api": "^2.2.0",
+    "lodash": "^4.17.4",
     "mongodb": "^2.2.12",
     "node-wolfram": "0.0.1"
   }
