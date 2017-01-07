@@ -2,18 +2,16 @@
 S'_inputHistory'
 p2
 (lp3
-Vmy dogs name is Zahar
+Vwhat is my dogs name
 p4
-asS'_inputStack'
+aVmy dog
 p5
-(lp6
+asS'_inputStack'
+p6
+(lp7
 sS'_outputHistory'
-p7
-(lp8
-VThat is interesting that you have a dog named Zahar
-p9
-asVdog
-p10
-VZahar
-p11
-s.
+p8
+(lp9
+S''
+aS''
+as.
