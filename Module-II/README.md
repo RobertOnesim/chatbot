@@ -97,4 +97,12 @@ Example:
 	Madalina: 1, 2, 3
 	Iulian: 1, 2, 3
 	
+##Week 4
+	
+	1. Seach for news.
+	2. Define topic.
+	3. Python error on aiml files.
+	4. New route for dbpedia.
+	5. Ontology: rdf.
+	
 	
