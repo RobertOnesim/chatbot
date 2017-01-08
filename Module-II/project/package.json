@@ -19,6 +19,9 @@
     "imdb-api": "^2.2.0",
     "lodash": "^4.17.4",
     "mongodb": "^2.2.12",
-    "node-wolfram": "0.0.1"
+    "node-wolfram": "0.0.1",
+    "request": "^2.79.0",
+    "sparql-client": "^0.2.0",
+    "util": "^0.10.3"
   }
 }
