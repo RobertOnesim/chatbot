@@ -22,5 +22,8 @@ Impartirea pe task-uri in saptamana 3:
 ->Adaugare optiune de share (pe Facebook) a conversatiei: Alina Brinza
 ->Imbunatarite About: Andrei Scripcariu (adaugarea descrierii fiecarui modul + enumerarea membrilor in linie)
 ->Imbunatatire Contact: Andrei Munteanu (adaugarea formularului de contact ce va fi trimis la adresa contact@chatbota4.com)
-->Imbunatatire Login: Alina Brinza (logare cu Facebook si Google)
+->Imbunatatire Login: Alina Brinza (logare cu Facebook si/sau Google)
 ->Adaugare sectiune Statistici: Bogdan Lica (link catre corpus, testarea unei intrebari din acesta si compararea raspunsului dat cu cel real)
+
+Impartirea pe task-uri in saptamana 4:
+->Finalizarea task-urilor din saptamana a 3-a
