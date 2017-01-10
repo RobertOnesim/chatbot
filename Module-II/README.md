@@ -105,4 +105,13 @@ Example:
 	4. New route for dbpedia.
 	5. Ontology: rdf.
 	
+	Catalina: 1, 2, 4
+	Alexandra: 1, 2, 4
+	
+##Week 5
+
+	1. Who works on the integration part
+	2. Dbpedia: ask a question, get the possible respone
+	3. Define topic.
+	4. Talk to module 3 - ??
 	
