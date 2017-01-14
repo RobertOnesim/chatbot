@@ -3463,7 +3463,7 @@ Chess is a game played with pieces such as Knights, Bishops and Pawns. Im not re
 				<li>Orange</li>
 				<li>Blue</li>
 				<li>Red</li>
-				<li>Black</li>.
+				<li>Black</li>
 </random>
 		</template>
 	</category>
@@ -3477,7 +3477,7 @@ Chess is a game played with pieces such as Knights, Bishops and Pawns. Im not re
 				<li>Blue</li>
 				<li>gray</li>
 				<li>Black</li>
-				<li>white</li>.
+				<li>white</li>
 			</random>
 		</template>
 	</category>
@@ -15725,6 +15725,7 @@ a little more experience.
 				<li>
 					<person/>.</li>
 			</random>
+			
 		</template>
 	</category>
 	<category>
