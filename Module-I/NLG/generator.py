@@ -1,4 +1,6 @@
-from parse_utils import *
+from .parse_utils import parse_sentence, load_learned
+
+word_freq = load_learned()
 
 
 def respond(input_sentence):
@@ -23,7 +25,6 @@ def respond(input_sentence):
 
 
 if __name__ == '__main__':
-    word_freq = load_learned()
     while True:
         x = input(">> ")
         print(respond(x))

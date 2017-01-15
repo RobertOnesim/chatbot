@@ -1,4 +1,7 @@
-from parse_utils import *
+import os
+
+from .parse_utils import load_learned, load_remaining, parse_sentence, save_learned, save_remaining, read_subtitles
+from .settings import SUBTITLES_DIR, REMOVE_BULLSHIT
 
 
 def get_all_subtitles(sub_dir=SUBTITLES_DIR):

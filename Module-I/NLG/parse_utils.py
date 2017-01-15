@@ -1,8 +1,9 @@
 import gzip
-import os
 import json
+import os
 
-from settings import *
+from .settings import SENTENCES_REGEX, TRANSLATION, STOP_WORDS, REMOVE_MULTIPLE_LETTERS, PATH_SAVE_LEARNED, \
+    PATH_SAVE_LIST
 
 
 def read_subtitles(archive_path):
@@ -45,13 +46,13 @@ def standardise_words(words):
 def load_remaining(load_path=PATH_SAVE_LIST):
     if os.path.isfile(load_path):
         with open(load_path, 'r') as handle:
-            return json.loads(handle.read())
+            return json.load(handle)
 
 
 def load_learned(load_path=PATH_SAVE_LEARNED):
     if os.path.isfile(load_path):
         with open(load_path, 'r') as handle:
-            return json.loads(handle.read())
+            return json.load(handle)
 
 
 def save_remaining(sub_list, load_path=PATH_SAVE_LIST):

@@ -1,5 +1,7 @@
 import re
+import os.path
 
+APP_PATH = os.path.dirname(__file__) 
 
 STOP_WORDS = {'a', 'about', 'above', 'after', 'again', 'against', 'all', 'am', 'an', 'and', 'any', 'are', "aren't",
               'as', 'at', 'be', 'because', 'been', 'before', 'being', 'below', 'between', 'both', 'but', 'by', "can't",
@@ -30,6 +32,6 @@ REMOVE_BULLSHIT = re.compile(r'\{[^\}]+\}')
 
 SUBTITLES_DIR = r'..\OpenSubtitles2016\raw\en'
 
-PATH_SAVE_LIST = r'data\remaining_files.json'
+PATH_SAVE_LIST = os.path.join(APP_PATH, r'data\remaining_files.json')
 
-PATH_SAVE_LEARNED = r'data\learned_data.json'
+PATH_SAVE_LEARNED = os.path.join(APP_PATH, r'data\learned_data.json')
