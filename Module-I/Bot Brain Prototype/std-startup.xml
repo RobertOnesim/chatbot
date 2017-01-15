@@ -12,6 +12,31 @@
         <!-- This learn an aiml file -->
         <template>
             <learn>test.aiml</learn>
+            <learn>../../Module-II/aiml/A.aiml</learn>
+            <learn>../../Module-II/aiml/B.aiml</learn>
+            <learn>../../Module-II/aiml/C.aiml</learn>
+            <learn>../../Module-II/aiml/D.aiml</learn>
+            <learn>../../Module-II/aiml/E.aiml</learn>
+            <learn>../../Module-II/aiml/F.aiml</learn>
+            <learn>../../Module-II/aiml/G.aiml</learn>
+            <learn>../../Module-II/aiml/H.aiml</learn>
+            <learn>../../Module-II/aiml/I.aiml</learn>
+            <learn>../../Module-II/aiml/J.aiml</learn>
+            <learn>../../Module-II/aiml/K.aiml</learn>
+            <learn>../../Module-II/aiml/L.aiml</learn>
+            <learn>../../Module-II/aiml/M.aiml</learn>
+            <learn>../../Module-II/aiml/N.aiml</learn>
+            <learn>../../Module-II/aiml/O.aiml</learn>
+            <learn>../../Module-II/aiml/P.aiml</learn>
+            <learn>../../Module-II/aiml/R.aiml</learn>
+            <learn>../../Module-II/aiml/S.aiml</learn>
+            <learn>../../Module-II/aiml/T.aiml</learn>
+            <learn>../../Module-II/aiml/U.aiml</learn>
+            <learn>../../Module-II/aiml/V.aiml</learn>
+            <learn>../../Module-II/aiml/W.aiml</learn>
+            <learn>../../Module-II/aiml/X.aiml</learn>
+            <learn>../../Module-II/aiml/Y.aiml</learn>
+            <learn>../../Module-II/aiml/Z.aiml</learn>
             <learn>../../Module-II/aiml/astrology.aiml</learn>
             <learn>../../Module-II/aiml/biography.aiml</learn>
             <learn>../../Module-II/aiml/computers.aiml</learn>
@@ -43,6 +68,14 @@
             <learn>../../Module-II/aiml/sports.aiml</learn>
             <learn>../../Module-II/aiml/stories.aiml</learn>
             <learn>../../Module-II/aiml/that.aiml</learn>
+            <learn>../../Module-II/aiml/that2.aiml</learn>
+            <learn>../../Module-II/aiml/topics.aiml</learn>
+            <learn>../../Module-II/aiml/train.aiml</learn>
+            <learn>../../Module-II/aiml/udc.aiml</learn>
+            <learn>../../Module-II/aiml/under.aiml</learn>
+            <learn>../../Module-II/aiml/unix.aiml</learn>
+            <learn>../../Module-II/aiml/utilities.aiml</learn>
+            <learn>../../Module-II/aiml/windows.aiml</learn>
             <!-- You can add more aiml files here -->
             <!--<learn>more_aiml.aiml</learn>-->
         </template>

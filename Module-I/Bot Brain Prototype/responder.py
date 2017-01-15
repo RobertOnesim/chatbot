@@ -22,7 +22,7 @@ class Responder:
         self.google_params = {
             'limit': 1,
             'indent': True,
-            'key': kwargs.get("google_key"),
+            'key': "AIzaSyDML6wf5I7tdkyPdNq-gPT4zUtPiZgRudE",
         }
         self.kernel = self._get_kernel()
         self.chatbot = self._get_chatterbot()
@@ -55,7 +55,7 @@ class Responder:
         if len(response) == 0:
             response = self.get_google_knowledge_graph_response(sentence)
             if len(response) == 0:
-                response = self.get_chatterbot_response(sentence, session_id)
+                return None
 
         return response
 
