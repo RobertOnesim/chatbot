@@ -27,5 +27,6 @@ Impartirea pe task-uri in saptamana 3:
 
 Impartirea pe task-uri in saptamana 4:
 ->Finalizarea task-urilor din saptamana a 3-a
-TODO: la resurse librariile js folosite de noi
-->mail la profa cu notele individuale
+
+Saptamana 5: 
+->Integrare cu celelalte module (toata lumea)
