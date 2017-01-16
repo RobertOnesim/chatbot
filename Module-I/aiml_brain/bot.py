@@ -2,6 +2,7 @@
 import sys"""
 import responder
 import os
+import sys
 
 
 def main():
@@ -9,6 +10,8 @@ def main():
     while True:
         command = raw_input("Enter your message >> ")
         args = command.split()
+        if not args:
+            continue
         if args[0] == "login":
             response_gen.load_session(args[1])
             sessionID = args[1]

@@ -9,6 +9,9 @@ import nltk
 import json
 
 
+APP_PATH = os.path.dirname(__file__)
+
+
 class Responder:
     def __init__(self, **kwargs):
         nltk.download("averaged_perceptron_tagger")
@@ -30,7 +33,7 @@ class Responder:
 
     def _get_kernel(self):
         kernel = aiml.Kernel()
-        kernel.learn("std-startup.xml")
+        kernel.learn(os.path.join(APP_PATH, "std-startup.xml"))
         kernel.respond('load aiml b')
         """for(root, directories, files) in os.walk("../../Module-II/aiml"):
             for file in files:
