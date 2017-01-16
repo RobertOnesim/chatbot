@@ -30,7 +30,8 @@ class Responder:
 
     def _get_kernel(self):
         kernel = aiml.Kernel()
-        kernel.learn("test.aiml")
+        kernel.learn("std-startup.xml")
+        kernel.respond('load aiml b')
         """for(root, directories, files) in os.walk("../../Module-II/aiml"):
             for file in files:
                 full_path = os.path.join(root, file)

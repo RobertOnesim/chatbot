@@ -1,4 +1,4 @@
-from .parse_utils import parse_sentence, load_learned
+from parse_utils import parse_sentence, load_learned
 
 word_freq = load_learned()
 

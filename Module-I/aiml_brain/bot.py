@@ -7,7 +7,7 @@ import os
 def main():
     global sessionID
     while True:
-        command = input("Enter your message >> ")
+        command = raw_input("Enter your message >> ")
         args = command.split()
         if args[0] == "login":
             response_gen.load_session(args[1])
