@@ -3,6 +3,67 @@
 <aiml>
 <!--author: Alex-->
 <!--licence: Standard-->
+
+<category>
+	<pattern>I THINK I HAVE A HEADACHE</pattern>
+	<template>Try to take a pill</template>
+</category>
+
+<category>
+	<pattern>WHAT KIND OF PILL?</pattern>
+	<that>Try to take a pill</that>
+	<template>
+		<random>
+			<li>Nurofen</li>
+			<li>Ibalgin</li>
+			<li>MIG-400</li>
+			<li>A real doctor could answear better</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>* CURE FLU * </pattern>
+	<template>Best cure is time.Stay warm and inside.</template>
+</category>
+
+<category>
+	<pattern>MY CHEST HURTS *</pattern>
+	<template>Chest pain is a simptom for heart attack. You should check a doctor.</template>
+</category>
+<category>
+	<pattern>* ACNE TREATMENT *</pattern>
+	<template>Isotrexin gel, Roaccutane, Eritroacnol gel are a few ointments for acnees.</template>
+</category>
+
+<category>
+	<pattern>I FEEL MY EYES STINGY</pattern>
+	<template>There could be various reasons. An ophthalmologist could tell you better.</template>
+</category>
+
+<category>
+	<pattern>WHAT ARE OTHER SYMPTOMS FOR HEART ATTACK</pattern>
+	<template>Upper body discomfort and shortness of breath.</template>
+</category>
+
+<category>
+	<pattern>* HEART ATTACK SYMPTOMS *</pattern>
+	<template>Chest pain or discomfort, upper body discomfort and shortness of breath.</template>
+</category>
+
+<category>
+	<pattern>* HEART ATTACK CURE *</pattern>
+	<template>Aspirin to prevent further blood clotting.
+			  Nitroglycerin to reduce your heart's workload and improve blood flow through the coronary arteries.
+			  Oxygen therapy.
+			  Treatment for chest pain
+	</template>
+</category>
+
+
+
+
+
 <category>
 	<pattern>WHAT IS DIABETES</pattern>
 	<template>
