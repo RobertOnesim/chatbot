@@ -30,3 +30,5 @@ Impartirea pe task-uri in saptamana 4:
 
 Saptamana 5: 
 ->Integrare cu celelalte module (toata lumea)
+
+In principiu am realizat cam 80% din ceea ce ne-am propus.
