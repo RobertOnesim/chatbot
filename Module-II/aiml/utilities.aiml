@@ -357,34 +357,12 @@ Which item would you like to remove?
 <category><pattern>INPUT 4</pattern>
 <template><input index="4"/></template>
 </category>
-<category><pattern>LEARNEQUAL * EQUALTO *</pattern>
-<template><learn>
-<category>
-<pattern>TESTEQUAL <eval><star/></eval> EQUALTO <eval><star/></eval></pattern>
-<template>true</template>
-</category>
-<category>
-<pattern>TESTEQUAL <eval><star/></eval> EQUALTO *</pattern>
-<template>false</template>
-</category>
-<category>
-<pattern>TESTEQUAL * EQUALTO <eval><star/></eval></pattern>
-<template>false</template>
-</category>
-</learn></template>
-</category>
+
 <category><pattern>ADD _ TO MY * LIST</pattern>
 <template><srai>ADD <star/> TO MY <star index="2"/> LIST</srai></template>
 </category>
-<category><pattern>ADD _ TO MY LIST</pattern>
-<template>I've added <star/> to your list.
-<learn>
-<category><pattern>MYLIST</pattern>
-<template><eval><srai>CONS <star/> <srai>MYLIST</srai></srai></eval>
-</template>
-</category>
-</learn></template>
-</category>
+
+
 <category><pattern>ADD _ TO LIST</pattern>
 <template><srai>ADD <star/> TO MY LIST</srai></template>
 </category>
@@ -395,9 +373,8 @@ Which item would you like to remove?
 <template><star/></template>
 </category>
 <category><pattern>FORMATPHONENUMBER * *</pattern>
-<template><think>
+<template>
 <set name="firstword"><lowercase><star/></lowercase></set>
-</think>
 <condition name="firstword">
 <li value="dash">-<srai>FORMATPHONENUMBER <star index="2"/></srai></li>
 <li value="plus">+<srai>FORMATPHONENUMBER <star index="2"/></srai></li>
@@ -448,20 +425,14 @@ Which item would you like to remove?
 <template><response index="4"/></template>
 </category>
 <category><pattern>MAKE A * LIST</pattern>
-<template>Initializing your <star/> list.
-<learn>
-<category><pattern>MY <eval><star/></eval> LIST</pattern>
-<template>NIL</template>
-</category>
-</learn></template>
+<template>Initializing your <star/> list.</template>
 </category>
 <category><pattern>MAKE A LIST</pattern>
 <template>Initializing your list.
-<learn>
 <category><pattern>MYLIST</pattern>
 <template>NIL</template>
 </category>
-</learn></template>
+</template>
 </category>
 <category><pattern>CONS *</pattern>
 <template>undefined</template>
