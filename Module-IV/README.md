@@ -32,3 +32,7 @@ Saptamana 5:
 ->Integrare cu celelalte module (toata lumea)
 
 In principiu am realizat cam 80% din ceea ce ne-am propus.
+
+Librarii JavaScript utilizate:
+SpeechRecognition (https://davidwalsh.name/speech-recognition)
+ResponsiveVoice (http://responsivevoice.org/)
