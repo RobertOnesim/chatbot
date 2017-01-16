@@ -428,11 +428,10 @@ Which item would you like to remove?
 <template>Initializing your <star/> list.</template>
 </category>
 <category><pattern>MAKE A LIST</pattern>
-<template>Initializing your list.
+<template>Initializing your list.</template>
+</category>
 <category><pattern>MYLIST</pattern>
 <template>NIL</template>
-</category>
-</template>
 </category>
 <category><pattern>CONS *</pattern>
 <template>undefined</template>
