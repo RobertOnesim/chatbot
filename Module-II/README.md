@@ -5,7 +5,15 @@
 __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madalina, Astefanesei Iulian
 
 #Aiml files 
+
 	Go to /aiml directory and find all the categories
+	
+	Downloaded: 
+	https://code.google.com/archive/p/aiml-en-us-foundation-alice/downloads
+	https://sourceforge.net/projects/charliebot/
+	https://sourceforge.net/projects/programw/
+	https://github.com/gianksp/ark-engine/tree/master/bots/super/aiml
+
 	
 #Collection user	
 Example:
