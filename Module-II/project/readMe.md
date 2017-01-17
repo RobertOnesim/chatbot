@@ -18,26 +18,26 @@
 	
 # Postman      - 46.32.235.176:8000/api/chatbot/
 	
-	<b>GET</b> http://localhost:8000/api/chatbot/user
+	GET http://localhost:8000/api/chatbot/user
 	
-	<b>POST</b> http://localhost:8000/api/chatbot/user
+	POST http://localhost:8000/api/chatbot/user
 	{ "username": "John", "password": "John" }
 	
-	<b>POST</b> http://localhost:8000/api/chatbot/user/login
+	POST http://localhost:8000/api/chatbot/user/login
 	{ "username": "John", "password": "John" }
 	
-	<b>PUT</b> http://localhost:8000/api/chatbot/user/:username
+	PUT http://localhost:8000/api/chatbot/user/:username
 	{ "predicates": {"age": 20, "school": "Computer science", "diseases": ["flu"]}}
 	
-	<b>POST</b> http://localhost:8000/api/chatbot/wolfram
+	POST http://localhost:8000/api/chatbot/wolfram
 	{ "content": "34+5" }
 	
-	<b>POST</b> http://localhost:8000/api/chatbot/imdb
+	POST http://localhost:8000/api/chatbot/imdb
 	{ "content": "Teen wolf" }
 	
-	<b>GET</b> http://localhost:8000/api/chatbot/news/sources
+	GET http://localhost:8000/api/chatbot/news/sources
 	
-	<b>GET</b> http://localhost:8000/api/chatbot/news?source=talksport   {talksport = id from /news/sources}
+	GET http://localhost:8000/api/chatbot/news?source=talksport   {talksport = id from /news/sources}
 	
 	
 	
@@ -140,7 +140,7 @@ bad response
 		}
 	}
 	
-<b>POST</b> http://localhost:8000/api/chatbot/wolfram
+<b>POST /api/chatbot/wolfram </b>
 request
 
 	{
@@ -155,7 +155,7 @@ response
 		"error": null
 	}
 		
-<b>POST</b> http://localhost:8000/api/chatbot/imdb
+<b>POST /api/chatbot/imdb </b >
 request	
 	
 	{ 
@@ -193,7 +193,7 @@ response
 	}
 
 
-<b>GET</b> http://localhost:8000/api/chatbot/news/sources
+<b>GET /api/chatbot/news/sources </b>
 
 	[
 	  {
@@ -275,7 +275,7 @@ response
 	]
 
 
-<b>GET</b> http://localhost:8000/api/chatbot/news?source=talksport    {talksport = id from /news/sources}
+<b>GET /api/chatbot/news?source=talksport    {talksport = id from /news/sources} </b>
 
 	{
 	  "data": {
