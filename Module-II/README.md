@@ -15,7 +15,7 @@ __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madali
 	https://github.com/gianksp/ark-engine/tree/master/bots/super/aiml
 
 	
-#Collection user	
+#User Collection	
 Example:
 
 	{
@@ -29,12 +29,12 @@ Example:
 		}
 	}
 
-##Module used:
+##Used Modules:
 	
 	1. Module imdb-api -> find a specific movie  
 	https://www.npmjs.com/package/imdb-api
 	
-	2. Module node-wolfram -> solve equation
+	2. Module node-wolfram -> solve equations
 	https://www.npmjs.com/package/node-wolfram
 	
 	3. Module sparql-client -> for an input find the resource
@@ -45,7 +45,7 @@ Example:
 	https://www.npmjs.com/package/mongodb
 	
 
-### Ontology
+### Ontologies
 	
 	SUMO - https://github.com/ontologyportal/sumo
 	http://virtual.cvut.cz/kifb/en/
@@ -73,10 +73,10 @@ Example:
 ##Week 2
 
 	1. Search about: ontology, YAGO, SUMO
-	2. API: Wolfram, Imdb, Music
-	3. Integrate the question and answers from Corpus_IA.docx
+	2. APIs: Wolfram, Imdb, Music
+	3. Integrate the questions and answers from Corpus_IA.docx
 	4. New route: addQuestionAnswer in a file.aiml
-	5. Update files .aiml
+	5. Update .aiml files 
 	6. Define the topic for chatBot
 	
 	Catalina: 1, 2, 3, 4
@@ -101,8 +101,8 @@ Example:
 ##Week 4
 	
 	1. Seach for news.
-	2. Define topic.
-	3. Python error on aiml files.
+	2. Define a topic.
+	3. Python errors in aiml files.
 	4. New route for dbpedia.
 	5. Ontology: rdf.
 	
@@ -112,9 +112,9 @@ Example:
 ##Week 5
 
 	1. Who works on the integration part
-	2. Dbpedia: ask a question, get the possible respone
-	3. Define topic.
-	4. Python error on aiml files.
+	2. Dbpedia: ask a question, get the possible response
+	3. Define a topic.
+	4. Python errors in aiml files.
 	
 	Catalina: 1, 2, 3
 	Alexandra: 3
