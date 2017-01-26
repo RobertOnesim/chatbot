@@ -5,42 +5,17 @@
 __Team members__: Baincescu Catalina, Birsan Alexandra, Gusa Diana, Iacob Madalina, Astefanesei Iulian
 
 #Aiml files 
+
 	Go to /aiml directory and find all the categories
 	
-#Collection user	
+	Downloaded: 
+	https://code.google.com/archive/p/aiml-en-us-foundation-alice/downloads
+	https://sourceforge.net/projects/charliebot/
+	https://sourceforge.net/projects/programw/
+	https://github.com/gianksp/ark-engine/tree/master/bots/super/aiml
 
-	{
-		"title": " User information",
-		"type": "object",
-		"properties": {
-			"username": {
-				"type": "string"
-			},
-			"password": {
-				"type": "string"
-			},
-			"predicates": {
-				"description":"List of learned tags from user",
-				"type": "object",
-				"properties": {
-					"age": {
-						"type": "number"
-					},
-					"school": {
-						"type": "string"
-					},
-					"diseases": {
-						"type": "array",
-						"description": "list of diseases",
-						"items": {
-							"type": "string"
-						}
-					}
-				}
-			}
-		}
-	}
-
+	
+#User Collection	
 Example:
 
 	{
@@ -54,6 +29,32 @@ Example:
 		}
 	}
 
+##Used Modules:
+	
+	1. Module imdb-api -> find a specific movie  
+	https://www.npmjs.com/package/imdb-api
+	
+	2. Module node-wolfram -> solve equations
+	https://www.npmjs.com/package/node-wolfram
+	
+	3. Module sparql-client -> for an input find the resource
+	https://www.npmjs.com/package/sparql-client
+	https://github.com/RDFLib/sparqlwrapper
+	
+	4. Module mongodb -> store the data for user in db
+	https://www.npmjs.com/package/mongodb
+	
+
+### Ontologies
+	
+	SUMO - https://github.com/ontologyportal/sumo
+	http://virtual.cvut.cz/kifb/en/
+	http://www.site.uottawa.ca:4321/sumo/index.html
+	
+	YAGO - http://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/yago/#c10444
+	http://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/yago/downloads/
+	http://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/yago/archive/
+	
 
 ##Week 1
 
@@ -72,10 +73,10 @@ Example:
 ##Week 2
 
 	1. Search about: ontology, YAGO, SUMO
-	2. API: Wolfram, Imdb, Music
-	3. Integrate the question and answers from Corpus_IA.docx
+	2. APIs: Wolfram, Imdb, Music
+	3. Integrate the questions and answers from Corpus_IA.docx
 	4. New route: addQuestionAnswer in a file.aiml
-	5. Update files .aiml
+	5. Update .aiml files 
 	6. Define the topic for chatBot
 	
 	Catalina: 1, 2, 3, 4
@@ -100,8 +101,8 @@ Example:
 ##Week 4
 	
 	1. Seach for news.
-	2. Define topic.
-	3. Python error on aiml files.
+	2. Define a topic.
+	3. Python errors in aiml files.
 	4. New route for dbpedia.
 	5. Ontology: rdf.
 	
@@ -111,7 +112,13 @@ Example:
 ##Week 5
 
 	1. Who works on the integration part
-	2. Dbpedia: ask a question, get the possible respone
-	3. Define topic.
-	4. Talk to module 3 - ??
+	2. Dbpedia: ask a question, get the possible response
+	3. Define a topic.
+	4. Python errors in aiml files.
+	
+	Catalina: 1, 2, 3
+	Alexandra: 3
+	Madalina: 3, 4
+	Diana: 2, 4
+	Iulian: 4
 	
