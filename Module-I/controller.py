@@ -3,6 +3,8 @@ import os
 import sys
 import xml.etree.ElementTree as ET
 
+from NLG.generator import respond
+
 import requests
 
 sys.path.append('neural_net')
@@ -63,9 +65,36 @@ class Controller:
         print(json.dumps(result, indent=3))
 
     def getOutput(self, question, user_key):
-        ans = self.callAiml(question, user_key)
-        if ans is not None:
-            return ans
+        try:
+            ses = requests.Session()
+            resp = ses.get(
+                'http://ec2-52-213-135-23.eu-west-1.compute.amazonaws.com/api/v1/nltk/detect-language?message={}'.format(
+                    question))
+            if resp.status_code == 200 and resp.json():
+                if not resp.json()['error']:
+                    lang = resp.json().get('language', '')
+                    if lang and lang != 'en':
+                        resp = ses.get(
+                            'http://ec2-52-213-135-23.eu-west-1.compute.amazonaws.com/api/v1/nltk/error-message?language={}'.format(
+                                lang))
+                        if resp.status_code == 200 and resp.json():
+                            ans = resp.json().get('responseErrorMessage', '')
+                            if ans:
+                                return ans
+        except:
+            pass
+
+        aimlResp = self.callAiml(question, user_key)
+        netResp = self.callNetwork(question)
+        nlgResp = respond(question)
+        print(aimlResp)
+        print(netResp)
+        print(nlgResp)
+        if aimlResp is not None:
+            return aimlResp
         print('[i] Using neural network')
-        ans = self.callNetwork(question)
-        return ans
+        return netResp
+
+
+# c = Controller()
+# print(c.getOutput('Sprachen Sie Deutsch?', 'asdasdas'))
