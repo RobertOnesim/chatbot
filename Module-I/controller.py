@@ -3,13 +3,15 @@ import os
 import sys
 import xml.etree.ElementTree as ET
 
-from NLG.generator import respond
-
 import requests
 
 sys.path.append('neural_net')
-
 from neural_net.chatbot.chatbot import Chatbot
+
+USE_NLG = False
+
+if USE_NLG:
+    from NLG.generator import respond
 
 AIML_BOT_PATH = os.path.join(os.path.dirname(__file__), r'aiml_brain\bot.py')
 
@@ -85,16 +87,17 @@ class Controller:
             pass
 
         aimlResp = self.callAiml(question, user_key)
-        netResp = self.callNetwork(question)
-        nlgResp = respond(question)
         print(aimlResp)
+        netResp = self.callNetwork(question)
         print(netResp)
-        print(nlgResp)
+        if USE_NLG:
+            nlgResp = respond(question)
+            print(nlgResp)
         if aimlResp is not None:
             return aimlResp
         print('[i] Using neural network')
         return netResp
 
 
-# c = Controller()
-# print(c.getOutput('Sprachen Sie Deutsch?', 'asdasdas'))
+        # c = Controller()
+        # print(c.getOutput('Sprachen Sie Deutsch?', 'asdasdas'))
