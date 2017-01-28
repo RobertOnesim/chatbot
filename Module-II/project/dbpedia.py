@@ -19,5 +19,5 @@ sparql.setReturnFormat(JSON)
 results = sparql.query().convert()
 
 for result in results["results"]["bindings"]:
-    print(result["label"]["value"])
+    print(result["label"]["value"].encode('utf-8'))
 
